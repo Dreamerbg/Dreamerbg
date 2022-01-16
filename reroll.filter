@@ -882,7 +882,7 @@ ItemDisplay[(uhl OR uth OR utb OR 7bs OR 7qr) UNI !ID]: %BORDER-68%%GREEN%HOLY %
 ItemDisplay[(utc OR uhn) UNI !ID]: %BORDER-68%%GREEN%HOLY %PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* %GREEN%MOLY
 
 //NEW PD2 UNIQUES
-ItemDisplay[(ba6 OR 9ar OR dr2 OR ob6 OR am5 OR ne6) UNI !ID]: %DOT-68%%TAN%*%GRAY%*   %NAME%%GRAY%   *%TAN%*
+ItemDisplay[(ba6 OR 9ar OR dr2 OR ob6 OR am5 OR ne6) UNI !ID]: %TAN%*%GRAY%*   %NAME%%GRAY%   *%TAN%*
 ItemDisplay[pa3 UNI !ID]: %GRAY%*  %NAME%%GRAY%  *
 
 //OK only when ETH
