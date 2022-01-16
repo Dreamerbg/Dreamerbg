@@ -7,3 +7,7 @@ It is enhanced with some features from Kassahi's loot filter - https://github.co
 - Stat requirements on items if you are to upgrade them
 - Removed some generally not needed items from notificiations (unless you play a specific build) 
 - - The new PD2 uniq heraldic shield
+
+
+### Reroll filter added
+It notifies for map reroll items - runes 10 and above and flawless gems
