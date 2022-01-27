@@ -6,7 +6,7 @@ It is enhanced with some features from Kassahi's loot filter - https://github.co
 - Runwords with the actual runes listed on bases
 - Stat requirements on items if you are to upgrade them
 - Removed some generally not needed items from notificiations (unless you play a specific build) 
-- - The new PD2 uniq heraldic shield
+- - The new PD2 uniq items
 
 
 ### Reroll filter added
