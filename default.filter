@@ -3284,9 +3284,9 @@ ItemDisplay[rtp]: %MAP-0A%%DOT-66%%NAME% %ORANGE%*
 ItemDisplay[rid]: %MAP-0A%%DOT-66%%NAME% %ORANGE%*
 
 //new uber ancients
-ItemDisplay[ubaa]: %PX-9D%%NAME%{%WHITE%Drops from: %GREEN%T1 Maps %NL% %BLUE%NOTE%WHITE%:Cube with other two ancient sigils to create %ORANGE%Relic of the Ancients}
-ItemDisplay[ubab]: %PX-9D%%NAME%{%WHITE%Drops from: %YELLOW%T2 Maps %NL% %BLUE%NOTE%WHITE%:Cube with other two ancient sigils to create %ORANGE%Relic of the Ancients}
-ItemDisplay[ubac]: %PX-9D%%NAME%{%WHITE%Drops from: %ORANGE%T3 Maps %NL% %BLUE%NOTE%WHITE%:Cube with other two ancient sigils to create %ORANGE%Relic of the Ancients}
+ItemDisplay[ubaa]: %PX-9D%%NAME%{%BLUE%NOTE%WHITE%:Cube with other two ancient sigils to create %ORANGE%Relic of the Ancients %NL% %WHITE%Drops from: %GREEN%T1 Maps}
+ItemDisplay[ubab]: %PX-9D%%NAME%{%BLUE%NOTE%WHITE%:Cube with other two ancient sigils to create %ORANGE%Relic of the Ancients %NL% %WHITE%Drops from: %YELLOW%T2 Maps}
+ItemDisplay[ubac]: %PX-9D%%NAME%{%BLUE%NOTE%WHITE%:Cube with other two ancient sigils to create %ORANGE%Relic of the Ancients %NL% %WHITE%Drops from: %ORANGE%T3 Maps}
 ItemDisplay[uba]: %PX-9D%%NAME%
 
 //Rathma Items
