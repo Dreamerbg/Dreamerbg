@@ -8,6 +8,5 @@ It is enhanced with some features from Kassahi's loot filter - https://github.co
 - Removed some generally not needed items from notificiations (unless you play a specific build) 
 - - The new PD2 uniq items
 
+Season 5 changes incoming :) 
 
-### Reroll filter added
-It notifies for map reroll items - runes 10 and above and flawless gems
