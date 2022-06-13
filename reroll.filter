@@ -4,10 +4,10 @@
 //
 //	For Casual and EndGame Players
 
-//Gold
-ItemDisplay[GOLD<100 CLVL<18]:
-ItemDisplay[GOLD<1000 (CLVL>17 AND CLVL<80)]:
-ItemDisplay[GOLD<5000 CLVL>79]:
+//Gold   - by commenting the lines bellow all gold will be shown and auto picked in S5
+//ItemDisplay[GOLD<100 CLVL<18]:
+//ItemDisplay[GOLD<1000 (CLVL>17 AND CLVL<80)]:
+//ItemDisplay[GOLD<5000 CLVL>79]:
 
 //Names of Superior and Inferior items to short in later step
 ItemDisplay[(SUP OR INF) !RW cap]: Cap%CONTINUE%
