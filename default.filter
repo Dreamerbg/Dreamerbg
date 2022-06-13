@@ -5,9 +5,9 @@
 //	For Casual and EndGame Players
 
 //Gold   - by commenting the lines bellow all gold will be shown and auto picked in S5
-//ItemDisplay[GOLD<100 CLVL<18]:
-//ItemDisplay[GOLD<1000 (CLVL>17 AND CLVL<80)]:
-//ItemDisplay[GOLD<5000 CLVL>79]:
+ItemDisplay[GOLD<50 CLVL<18]:
+ItemDisplay[GOLD<500 (CLVL>17 AND CLVL<80)]:
+ItemDisplay[GOLD<1000 CLVL>79]:
 
 //Names of Superior and Inferior items to short in later step
 ItemDisplay[(SUP OR INF) !RW cap]: Cap%CONTINUE%
@@ -3277,6 +3277,17 @@ ItemDisplay[dcso]: %MAP-0A%%PX-62%%NAME% %RED%*{%TAN%Note%WHITE%: Contains Souls
 
 //Project Diablo 2 Season 5 items
 ItemDisplay[lpp]: %BORDER-0A%%DOT-62%%GREEN%pick %PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* %GREEN%up{Note%WHITE%: Socket a %BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE%/%ORANGE%Crafted %WHITE%item}
+ItemDisplay[rkey]: %BORDER-0A%%DOT-62%%GREEN%pick %PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* %GREEN%up
+ItemDisplay[lsvl]: %BORDER-0A%%DOT-62%%GREEN%pick %PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* %GREEN%up
+ItemDisplay[llmr]: %BORDER-0A%%DOT-62%%GREEN%pick %PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* %GREEN%up
+ItemDisplay[rtp]: %MAP-0A%%DOT-66%%NAME% %ORANGE%*
+ItemDisplay[rid]: %MAP-0A%%DOT-66%%NAME% %ORANGE%*
+
+//new uber ancients
+ItemDisplay[ubaa]: %PX-9D%%NAME%{%WHITE%Drops from: %GREEN%T1 Maps %NL% %BLUE%NOTE%WHITE%:Cube with other two ancient sigils to create %ORANGE%Relic of the Ancients}
+ItemDisplay[ubab]: %PX-9D%%NAME%{%WHITE%Drops from: %YELLOW%T2 Maps %NL% %BLUE%NOTE%WHITE%:Cube with other two ancient sigils to create %ORANGE%Relic of the Ancients}
+ItemDisplay[ubac]: %PX-9D%%NAME%{%WHITE%Drops from: %ORANGE%T3 Maps %NL% %BLUE%NOTE%WHITE%:Cube with other two ancient sigils to create %ORANGE%Relic of the Ancients}
+ItemDisplay[uba]: %PX-9D%%NAME%
 
 //Rathma Items
 ItemDisplay[rtmf]: %MAP-0A%%PX-62%%NAME% %RED%*{%TAN%Note%WHITE%: 2x %ORANGE%Bone Fragments %WHITE%+ %GOLD%Hellfire Torch %WHITE%= %ORANGE%Trang-Oul's Jawbone}
