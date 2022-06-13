@@ -3244,6 +3244,12 @@ ItemDisplay[SIN (SK270>2 OR SK269>2 OR SK268>2 OR SK267>2 OR SK273>2 OR SK266>2 
 ItemDisplay[SCEPTER !(wsp OR 9qs OR 9ws OR 7ws) (SK111>2 OR SK112>2 OR SK116>2 OR SK113>2 OR SK114>2 OR SK115>2 OR SK378>1 OR SK121>1 OR SK117>1 OR SK118>1 OR SK119>1 OR SK120>1 OR SK364>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR ((SK108>0 OR SK109>0 OR SK371>0 OR SK107>0) AND (SK111>1 OR SK112>1 OR SK116>1 OR SK113>1 OR SK114>1 OR SK115>1 OR SK378>0 OR SK121>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0))) !ETH !INF !RW NMAG CLVL>79]: %NAME% %GRAY%(%TAN%$%WHITE%%PRICE%%GRAY%){%NAME%}
 ItemDisplay[(clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) (SK370>2 OR SK238>2 OR SK243>2 OR SK246>2 OR SK244>1 OR SK245>1 OR SK239>1 OR SK237>1 OR SK241>1 OR SK247>0 OR SK226>0 OR SK248>0 OR SK249>0 OR SK250>0 OR ((SK234>0 OR SK240>0 OR SK242>0 OR SK227>0 OR SK231>0) AND (SK370>1 OR SK238>1 OR SK243>1 OR SK246>1 OR SK244>0 OR SK245>0 OR SK239>0 OR SK237>0 OR SK241>0))) !ETH !INF !RW NMAG CLVL>79]: %NAME% %GRAY%(%TAN%$%WHITE%%PRICE%%GRAY%){%NAME%}
 
+//new uber ancients
+ItemDisplay[ubaa]: %PX-9D%%NAME%{%BLUE%NOTE%WHITE%:Cube with other two ancient sigils to create %ORANGE%Relic of the Ancients %NL% %WHITE%Drops from: %GREEN%T1 Maps}
+ItemDisplay[ubab]: %PX-9D%%NAME%{%BLUE%NOTE%WHITE%:Cube with other two ancient sigils to create %ORANGE%Relic of the Ancients %NL% %WHITE%Drops from: %YELLOW%T2 Maps}
+ItemDisplay[ubac]: %PX-9D%%NAME%{%BLUE%NOTE%WHITE%:Cube with other two ancient sigils to create %ORANGE%Relic of the Ancients %NL% %WHITE%Drops from: %ORANGE%T3 Maps}
+ItemDisplay[uba]: %PX-9D%%NAME%
+
 //Show me quantitiy of all stackables
 ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk) QTY>0]: %NAME% %TAN%x %WHITE%%QTY%{%NAME%}%CONTINUE%
 
@@ -3282,12 +3288,6 @@ ItemDisplay[lsvl]: %BORDER-0A%%DOT-62%%GREEN%pick %PURPLE%*%RED%*%ORANGE%*%YELLO
 ItemDisplay[llmr]: %BORDER-0A%%DOT-62%%GREEN%pick %PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* %GREEN%up
 ItemDisplay[rtp]: %MAP-0A%%DOT-66%%NAME% %ORANGE%*
 ItemDisplay[rid]: %MAP-0A%%DOT-66%%NAME% %ORANGE%*
-
-//new uber ancients
-ItemDisplay[ubaa]: %PX-9D%%NAME%{%BLUE%NOTE%WHITE%:Cube with other two ancient sigils to create %ORANGE%Relic of the Ancients %NL% %WHITE%Drops from: %GREEN%T1 Maps}
-ItemDisplay[ubab]: %PX-9D%%NAME%{%BLUE%NOTE%WHITE%:Cube with other two ancient sigils to create %ORANGE%Relic of the Ancients %NL% %WHITE%Drops from: %YELLOW%T2 Maps}
-ItemDisplay[ubac]: %PX-9D%%NAME%{%BLUE%NOTE%WHITE%:Cube with other two ancient sigils to create %ORANGE%Relic of the Ancients %NL% %WHITE%Drops from: %ORANGE%T3 Maps}
-ItemDisplay[uba]: %PX-9D%%NAME%
 
 //Rathma Items
 ItemDisplay[rtmf]: %MAP-0A%%PX-62%%NAME% %RED%*{%TAN%Note%WHITE%: 2x %ORANGE%Bone Fragments %WHITE%+ %GOLD%Hellfire Torch %WHITE%= %ORANGE%Trang-Oul's Jawbone}
