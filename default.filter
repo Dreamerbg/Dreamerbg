@@ -886,7 +886,8 @@ ItemDisplay[(ba6 OR 9ar OR dr2 OR ob6 OR am5 OR ne6) UNI !ID]: %TAN%*%GRAY%*   %
 ItemDisplay[pa3 UNI !ID]: %GRAY%*  %NAME%%GRAY%  *
 
 //PD2 UNIQUES season 5
-ItemDisplay[(utg OR 7fb OR ame OR ulb OR ned OR 6bs OR 7qs OR 7tw OR baf OR utp OR drf) UNI !ID]:%DOT-68%%TAN%*%GRAY%*   %NAME%%GRAY%   *%TAN%*
+ItemDisplay[(utg OR 7fb OR ame OR ulb OR ned OR 6bs) UNI !ID]:%DOT-68%%TAN%*%GRAY%*   %NAME%%GRAY%   *%TAN%*
+ItemDisplay[(7qs OR 7tw OR baf OR utp OR drf) UNI !ID]:%DOT-68%%TAN%*%GRAY%*   %NAME%%GRAY%   *%TAN%*
 
 //OK only when ETH
 ItemDisplay[(7pa OR 7bt OR 7gi OR 7wa OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7b8 OR 7bk OR xpl) UNI ETH !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %NAME%%GRAY%     *%TAN%*%YELLOW%*
