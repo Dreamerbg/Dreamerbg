@@ -8,5 +8,8 @@ It is enhanced with some features from Kassahi's loot filter - https://github.co
 - Removed some generally not needed items from notificiations (unless you play a specific build) 
 - - The new PD2 uniq items
 
-Season 5 changes incoming :) 
-
+###Season 5 changes 
+Added new uniques and misc items
+Added new dungeon and maps
+Added new gold rules
+Added the new runewords in the bases
