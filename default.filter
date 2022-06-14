@@ -525,10 +525,6 @@ ItemDisplay[(WEAPON OR ARMOR) NMAG !ID]: %NAME%
 //Show me that item is ethereal
 ItemDisplay[ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME%%CONTINUE%
 
-//Show Weapon Speed & Range
-ItemDisplay[WEAPON !BOW !XBOW !WAND !SOR]: %NAME%{%WHITE%Speed: %WPNSPD% %GRAY%|| %WHITE%Range: +%RANGE%}%CONTINUE%
-ItemDisplay[WEAPON (BOW OR XBOW)]: %NAME%{%WHITE%Base Speed: %WPNSPD%}%CONTINUE%
-
 //Show me number of sockets of every socketed item
 ItemDisplay[SOCK>0]: %NAME% %TAN%[%WHITE%%SOCKETS%%TAN%]%CONTINUE%
 
@@ -3239,8 +3235,8 @@ ItemDisplay[STAFF (MAG OR RARE OR CRAFT) CHSK54>0]: %NAME%{%NAME%%RED%***   %GRE
 ItemDisplay[WAND (MAG OR RARE OR CRAFT) CHSK91>0 ((NORM OR EXC) OR (SOCK=0 AND !THROWING) OR MAG)]: %NAME%{%NAME%%NL%}%CONTINUE%
 ItemDisplay[WAND (MAG OR RARE OR CRAFT) CHSK91>0]: %NAME%{%NAME%%RED%***   %GREEN%Lower Resist Charges%RED%   ***%NL%%GREEN%***%RED%***   %TAN%Note%WHITE%: Notice me, That's me:   %RED%***%GREEN%***}
 //
-ItemDisplay[WEAPON (MAG OR RARE OR CRAFT) CHSK82>0 ((NORM OR EXC) OR (SOCK=0 AND !THROWING) OR MAG)]: %NAME%{%NAME%%NL%}%CONTINUE%
-ItemDisplay[WEAPON (MAG OR RARE OR CRAFT) CHSK82>0]: %NAME%{%NAME%%RED%***   %GREEN%Life Tap Charges%RED%   ***%NL%%GREEN%***%RED%***   %TAN%Note%WHITE%: Notice me, That's me:   %RED%***%GREEN%***}
+ItemDisplay[WAND (MAG OR RARE OR CRAFT) CHSK445>0 ((NORM OR EXC) OR (SOCK=0 AND !THROWING) OR MAG)]: %NAME%{%NAME%%NL%}%CONTINUE%
+ItemDisplay[WAND (MAG OR RARE OR CRAFT) CHSK445>0]: %NAME%{%NAME%%RED%***   %GREEN%Life Tap Charges%RED%   ***%NL%%GREEN%***%RED%***   %TAN%Note%WHITE%: Notice me, That's me:   %RED%***%GREEN%***}
 //
 ItemDisplay[WEAPON (MAG OR RARE OR CRAFT) ED>399 ((NORM OR EXC) OR (SOCK=0 AND !THROWING) OR MAG)]: %NAME%{%NAME%%NL%}%CONTINUE%
 ItemDisplay[WEAPON (MAG OR RARE OR CRAFT) ED>399]: %NAME%{%NAME%%RED%***   %GREEN%High ED Weapon%RED%   ***%NL%%GREEN%***%RED%***   %TAN%Note%WHITE%: Notice me, That's me:   %RED%***%GREEN%***}
