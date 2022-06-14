@@ -4,7 +4,7 @@
 //
 //	For Casual and EndGame Players
 
-//Gold   - by commenting the lines bellow all gold will be shown and auto picked in S5
+//Gold   - by commenting the lines bellow all gold will be shown and auto picked in Season 5
 ItemDisplay[GOLD<50 CLVL<18]:
 ItemDisplay[GOLD<500 (CLVL>17 AND CLVL<80)]:
 ItemDisplay[GOLD<1000 CLVL>79]:
@@ -525,6 +525,10 @@ ItemDisplay[(WEAPON OR ARMOR) NMAG !ID]: %NAME%
 //Show me that item is ethereal
 ItemDisplay[ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME%%CONTINUE%
 
+//Show Weapon Speed & Range
+ItemDisplay[WEAPON !BOW !XBOW !WAND !SOR]: %NAME%{%WHITE%Speed: %WPNSPD% %GRAY%|| %WHITE%Range: +%RANGE%}%CONTINUE%
+ItemDisplay[WEAPON (BOW OR XBOW)]: %NAME%{%WHITE%Base Speed: %WPNSPD%}%CONTINUE%
+
 //Show me number of sockets of every socketed item
 ItemDisplay[SOCK>0]: %NAME% %TAN%[%WHITE%%SOCKETS%%TAN%]%CONTINUE%
 
@@ -864,10 +868,6 @@ ItemDisplay[cm3 !UNI TABSK50>0]: %PURPLE%Martial Arts %TAN%Skiller%BLUE%
 
 //Note abut High-LVL Grand Charms
 ItemDisplay[cm3 MAG ID ILVL>90]: %NAME%{%WHITE%Cube with 3xPerf Gem%NL%%TAN%Note%WHITE%: ILVL%ORANGE%91+ %BLUE%Grand Charm%WHITE%, to Reroll:}
-
-//Show Weapon Speed & Range
-ItemDisplay[WEAPON !BOW !XBOW !WAND !SOR]: %NAME%{%WHITE%Speed: %WPNSPD% %GRAY%|| %WHITE%Range: +%RANGE%}%CONTINUE%
-ItemDisplay[WEAPON (BOW OR XBOW)]: %NAME%{%WHITE%Base Speed: %WPNSPD%}%CONTINUE%
 
 //Highlight Good Magic items
 ItemDisplay[jew MAG !ID]: %DOT-9A%%TAN%*%WHITE%*   %NAME%%WHITE%   *%TAN%*%BLUE%
