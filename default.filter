@@ -2127,7 +2127,7 @@ ItemDisplay[wst NMAG SOCK=0 ILVL>25]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %
 //Notes about possible RuneWords
 // Runewords For Helms
 ItemDisplay[NMAG SOCK=2 (HELM OR CIRC) !RW]: %NAME%{%TAN%Nadir: %ORANGE%Nef Tir %WHITE%| %TAN%Lore: %ORANGE%Ort Sol%NL%%TAN%Note: %WHITE%Possible Runewords}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 (HELM OR CIRC) !RW]: %NAME%{%Tan%Flickering Flame: %ORANGE%Nef Pul Vex %White%| %TAN%Wisdom: %ORANGE%Pul Ith Eld %White%| %TAN%Dream: %ORANGE%Io Jah Pul %WHITE%| %TAN%Ferocity: %ORANGE%Zod Cham Shael%NL%%TAN%Radiance: %ORANGE%Nef Sol Ith %WHITE%| %TAN%Delirium: %ORANGE%Lem Ist Io%NL%%TAN%Note: %WHITE%Possible Runewords}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (HELM OR CIRC) !RW]: %NAME%{%Tan%Flickering Flame: %ORANGE%Nef Pul Vex%NL%%TAN%Wisdom: %ORANGE%Pul Ith Eld %White%| %TAN%Dream: %ORANGE%Io Jah Pul %WHITE%| %TAN%Ferocity: %ORANGE%Zod Cham Shael%NL%%TAN%Radiance: %ORANGE%Nef Sol Ith %WHITE%| %TAN%Delirium: %ORANGE%Lem Ist Io%NL%%TAN%Note: %WHITE%Possible Runewords}%CONTINUE%
 
 // Runewords For Armors
 ItemDisplay[NMAG SOCK=2 CHEST !RW]: %NAME%{%TAN%Prudence: %ORANGE%Mal Tir%NL%%TAN%Stealth: %ORANGE%Tal Eth %WHITE%| %TAN%Smoke: %ORANGE%Nef Lum%NL%%TAN%Note: %WHITE%Possible Runewords}%CONTINUE%
