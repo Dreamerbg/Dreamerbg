@@ -532,8 +532,8 @@ ItemDisplay[SOCK>0]: %NAME% %TAN%[%WHITE%%SOCKETS%%TAN%]%CONTINUE%
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) ID]: %NAME% %GRAY%(%TAN%$%WHITE%%PRICE%%GRAY%)%CONTINUE%
 
 //Show Weapon Speed & Range
-ItemDisplay[WEAPON !BOW !XBOW !WAND !SOR]: %NAME%{%WHITE%Speed: %WPNSPD% %GRAY%|| %WHITE%Range: +%RANGE%}%CONTINUE%
-ItemDisplay[WEAPON (BOW OR XBOW)]: %NAME%{%WHITE%Base Speed: %WPNSPD%}%CONTINUE%
+ItemDisplay[WEAPON !BOW !XBOW !WAND !SOR]: %NAME%{%NAME%%NL%%WHITE%Speed: %WPNSPD% %GRAY%|| %WHITE%Range: +%RANGE%}%CONTINUE%
+ItemDisplay[WEAPON (BOW OR XBOW)]: %NAME%{%NAME%%NL%%WHITE%Base Speed: %WPNSPD%}%CONTINUE%
 
 //Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%R %WHITE%Full
