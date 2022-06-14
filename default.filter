@@ -531,6 +531,10 @@ ItemDisplay[SOCK>0]: %NAME% %TAN%[%WHITE%%SOCKETS%%TAN%]%CONTINUE%
 //Show me price of every MAG or RARE weapon/armor after ID
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) ID]: %NAME% %GRAY%(%TAN%$%WHITE%%PRICE%%GRAY%)%CONTINUE%
 
+//Show Weapon Speed & Range
+ItemDisplay[WEAPON !BOW !XBOW !WAND !SOR]: %NAME%{%WHITE%Speed: %WPNSPD% %GRAY%|| %WHITE%Range: +%RANGE%}%CONTINUE%
+ItemDisplay[WEAPON (BOW OR XBOW)]: %NAME%{%WHITE%Base Speed: %WPNSPD%}%CONTINUE%
+
 //Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%R %WHITE%Full
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%{%PURPLE%r %WHITE%35% + Perf %YELLOW%O %WHITE%+ %BLUE%Ring %WHITE%= Light Res %BLUE%Ring%NL%%WHITE%3x%PURPLE%r %WHITE%35% = %PURPLE%R %WHITE%Full%NL%%TAN%Note%WHITE%: Crafting Recipes:}
