@@ -3356,8 +3356,8 @@ ItemDisplay[NMAG t25]: %WHITE%Sewers of Harrogath{%NAME%}%CONTINUE%
 ItemDisplay[MAG t25]: %BLUE%Sewers of Harrogath{%NAME%}%CONTINUE%
 ItemDisplay[RARE t25]: %YELLOW%Sewers of Harrogath{%NAME%}%CONTINUE%
 ItemDisplay[NMAG t26]: %WHITE%Shadows of Westmarch{%NAME%}%CONTINUE%
-ItemDisplay[MAG t26]: %WHITE%Shadows of Westmarch{%NAME%}%CONTINUE%
-ItemDisplay[RARE t26]: %WHITE%Shadows of Westmarch{%NAME%}%CONTINUE%
+ItemDisplay[MAG t26]: %BLUE%Shadows of Westmarch{%NAME%}%CONTINUE%
+ItemDisplay[RARE t26]: %YELLOW%Shadows of Westmarch{%NAME%}%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) (t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %MAP-80%%GRAY%[%TAN%T2%GRAY%] %NAME% Map %TAN%*{%NAME%}
 
 // Info/Immunities Tier 3 Maps
