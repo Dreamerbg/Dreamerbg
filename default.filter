@@ -3255,8 +3255,8 @@ ItemDisplay[(clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) (SK370>2 OR SK238>2 OR SK24
 
 //S5 uber ancients
 ItemDisplay[ubaa]: %PX-9D%%NAME%{%TAN%He whom had visions many followed.%NL%Madawac the Guardian from Val Narian.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%%BLUE%NOTE%WHITE%: Cube %WHITE%one of each sigil%NL% %WHITE%Found in: %GREEN%T1 Maps}
-ItemDisplay[ubab]: %PX-9D%%NAME%{%BLUE%NOTE%WHITE%:%TAN%He whom found power and duty young.%NL%Talic the Defender from Western Shores.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%%BLUE%NOTE%WHITE%: Cube %WHITE%one of each sigil%NL%%WHITE%Found in: %YELLOW%T2 Maps}
-ItemDisplay[ubac]: %PX-9D%%NAME%{%BLUE%NOTE%WHITE%:%TAN%He whom ruled with a druid's touch.%NL%Korlic the Protector from Henknoc Jungles.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%%BLUE%NOTE%WHITE%: Cube %WHITE%one of each sigil%NL%%WHITE%Found in: %ORANGE%T3 Maps}
+ItemDisplay[ubab]: %PX-9D%%NAME%{%TAN%He whom found power and duty young.%NL%Talic the Defender from Western Shores.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%%BLUE%NOTE%WHITE%: Cube %WHITE%one of each sigil%NL%%WHITE%Found in: %YELLOW%T2 Maps}
+ItemDisplay[ubac]: %PX-9D%%NAME%{%TAN%He whom ruled with a druid's touch.%NL%Korlic the Protector from Henknoc Jungles.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%%BLUE%NOTE%WHITE%: Cube %WHITE%one of each sigil%NL%%WHITE%Found in: %ORANGE%T3 Maps}
 ItemDisplay[uba]:  %PX-9D%%NAME%{%TAN%whom are to forever watch over the Worldstone.%NL%Come to meet the spirits of mighty barbarians%NL%%NL%%WHITE%Find your courage upon %ORANGE%The Arreat Summit%GRAY%...}
 
 //Show me quantitiy of all stackables
