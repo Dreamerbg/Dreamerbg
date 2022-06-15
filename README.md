@@ -13,3 +13,4 @@ It is enhanced with some features from Kassahi's loot filter - https://github.co
 - Added new dungeon and maps
 - Added new gold rules
 - Added the new runewords in the bases
+- Added weapon speeds and range   (Thanks to eqN)
