@@ -2316,20 +2316,20 @@ ItemDisplay[rin MAG]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Hel%WHITE% | Btf: P
 //Notes for upgrading
 ItemDisplay[ARMOR NORM RARE ID]: %NAME%{%YELLOW%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Thul%WHITE%, Perf %PURPLE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 ItemDisplay[ARMOR EXC RARE ID]: %NAME%{%YELLOW%This Item%WHITE%, %ORANGE%Ko%WHITE%, %ORANGE%Pul%WHITE%, Perf %PURPLE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON NORM RARE ID]: %NAME%{%YELLOW%This Item%WHITE%, %ORANGE%Ort%WHITE%, %ORANGE%Amn%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON EXC RARE ID]: %NAME%{%YELLOW%This Item%WHITE%, %ORANGE%Fal%WHITE%, %ORANGE%Um%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON NORM RARE ID]: %NAME%{%NAME%%NL%%YELLOW%This Item%WHITE%, %ORANGE%Ort%WHITE%, %ORANGE%Amn%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON EXC RARE ID]: %NAME%{%NAME%%NL%%YELLOW%This Item%WHITE%, %ORANGE%Fal%WHITE%, %ORANGE%Um%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 ItemDisplay[ARMOR NORM CRAFT ID]: %NAME%{%ORANGE%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Thul%WHITE%, Perf %PURPLE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 ItemDisplay[ARMOR EXC CRAFT ID]: %NAME%{%ORANGE%This Item%WHITE%, %ORANGE%Ko%WHITE%, %ORANGE%Pul%WHITE%, Perf %PURPLE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 ItemDisplay[WEAPON NORM CRAFT ID]: %NAME%{%NAME%%NL%%ORANGE%This Item%WHITE%, %ORANGE%Ort%WHITE%, %ORANGE%Amn%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON EXC CRAFT ID]: %NAME%{%ORANGE%This Item%WHITE%, %ORANGE%Fal%WHITE%, %ORANGE%Um%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON EXC CRAFT ID]: %NAME%{%NAME%%NL%%ORANGE%This Item%WHITE%, %ORANGE%Fal%WHITE%, %ORANGE%Um%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 ItemDisplay[ARMOR NORM UNI ID]: %NAME%{%GOLD%This Item%WHITE%, %ORANGE%Tal%WHITE%, %ORANGE%Shael%WHITE%, Perf O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 ItemDisplay[ARMOR EXC UNI ID]: %NAME%{%NAME%%GOLD%This Item%WHITE%, %ORANGE%Ko%WHITE%, %ORANGE%Lem%WHITE%, Perf O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON NORM UNI ID]: %NAME%{%GOLD%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Sol%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON EXC UNI ID]: %NAME%{%GOLD%This Item%WHITE%, %ORANGE%Lum%WHITE%, %ORANGE%Pul%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON NORM UNI ID]: %NAME%{%NAME%%NL%%GOLD%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Sol%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON EXC UNI ID]: %NAME%{%NAME%%NL%%GOLD%This Item%WHITE%, %ORANGE%Lum%WHITE%, %ORANGE%Pul%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 ItemDisplay[ARMOR NORM SET ID]: %NAME%{%GREEN%This Item%WHITE%, %ORANGE%Tal%WHITE%, %ORANGE%Shael%WHITE%, Perf O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 ItemDisplay[ARMOR EXC SET ID]: %NAME%{%GREEN%This Item%WHITE%, %ORANGE%Ko%WHITE%, %ORANGE%Lem%WHITE%, Perf O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON NORM SET ID]: %NAME%{%GREEN%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Sol%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON EXC SET ID]: %NAME%{%GREEN%This Item%WHITE%, %ORANGE%Lum%WHITE%, %ORANGE%Pul%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON NORM SET ID]: %NAME%{%NAME%%NL%%GREEN%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Sol%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON EXC SET ID]: %NAME%{%NAME%%NL%%GREEN%This Item%WHITE%, %ORANGE%Lum%WHITE%, %ORANGE%Pul%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 
 //BAZI UPGRADE
 // Descriptions for Upgraded Item Requirements (non-eth normal armor)
