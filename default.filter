@@ -3254,10 +3254,10 @@ ItemDisplay[SCEPTER !(wsp OR 9qs OR 9ws OR 7ws) (SK111>2 OR SK112>2 OR SK116>2 O
 ItemDisplay[(clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) (SK370>2 OR SK238>2 OR SK243>2 OR SK246>2 OR SK244>1 OR SK245>1 OR SK239>1 OR SK237>1 OR SK241>1 OR SK247>0 OR SK226>0 OR SK248>0 OR SK249>0 OR SK250>0 OR ((SK234>0 OR SK240>0 OR SK242>0 OR SK227>0 OR SK231>0) AND (SK370>1 OR SK238>1 OR SK243>1 OR SK246>1 OR SK244>0 OR SK245>0 OR SK239>0 OR SK237>0 OR SK241>0))) !ETH !INF !RW NMAG CLVL>79]: %NAME% %GRAY%(%TAN%$%WHITE%%PRICE%%GRAY%){%NAME%}
 
 //S5 uber ancients
-ItemDisplay[ubaa]: %PX-9D%%NAME%{%BLUE%NOTE%WHITE%:Cube with other two ancient sigils to create %ORANGE%Relic of the Ancients %NL% %WHITE%Drops from: %GREEN%T1 Maps}
-ItemDisplay[ubab]: %PX-9D%%NAME%{%BLUE%NOTE%WHITE%:Cube with other two ancient sigils to create %ORANGE%Relic of the Ancients %NL% %WHITE%Drops from: %YELLOW%T2 Maps}
-ItemDisplay[ubac]: %PX-9D%%NAME%{%BLUE%NOTE%WHITE%:Cube with other two ancient sigils to create %ORANGE%Relic of the Ancients %NL% %WHITE%Drops from: %ORANGE%T3 Maps}
-ItemDisplay[uba]: %PX-9D%%NAME%
+ItemDisplay[ubaa]: %PX-9D%%NAME%{%TAN%He whom had visions many followed.%NL%Madawac the Guardian from Val Narian.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%%BLUE%NOTE%WHITE%: Cube %WHITE%one of each sigil%NL% %WHITE%Found in: %GREEN%T1 Maps}
+ItemDisplay[ubab]: %PX-9D%%NAME%{%BLUE%NOTE%WHITE%:%TAN%He whom found power and duty young.%NL%Talic the Defender from Western Shores.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%%BLUE%NOTE%WHITE%: Cube %WHITE%one of each sigil%NL%%WHITE%Found in: %YELLOW%T2 Maps}
+ItemDisplay[ubac]: %PX-9D%%NAME%{%BLUE%NOTE%WHITE%:%TAN%He whom ruled with a druid's touch.%NL%Korlic the Protector from Henknoc Jungles.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%%BLUE%NOTE%WHITE%: Cube %WHITE%one of each sigil%NL%%WHITE%Found in: %ORANGE%T3 Maps}
+ItemDisplay[uba]:  %PX-9D%%NAME%{%TAN%whom are to forever watch over the Worldstone.%NL%Come to meet the spirits of mighty barbarians%NL%%NL%%WHITE%Find your courage upon %ORANGE%The Arreat Summit%GRAY%...}
 
 //Show me quantitiy of all stackables
 ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk) QTY>0]: %NAME% %TAN%x %WHITE%%QTY%{%NAME%}%CONTINUE%
