@@ -16,7 +16,7 @@ It is enhanced with some features from Kassahi's loot filter - https://github.co
 - Added weapon speeds and range   (Thanks to eqN)
 
 ### Loot Filter General info:
- It uses Kruszard's notifications and information on items as a baseline. For example : https://i.imgur.com/wDIwNFa.jpeg
- On top of that it adds more information on items such as weapon speed and range. Possible runewords (with runes listed in correct order): https://i.imgur.com/07aF2Cy.png
- Also notifies about runes 10+ since they are needed for map rerolls and flawless gems. 
- All of the above feature make the filter more casual player oriented :) 
+- It uses Kruszard's notifications and information on items as a baseline. For example : https://i.imgur.com/wDIwNFa.jpeg
+- On top of that it adds more information on items such as weapon speed and range. Possible runewords (with runes listed in correct order): https://i.imgur.com/07aF2Cy.png
+- Also notifies about runes 10+ since they are needed for map rerolls and flawless gems. 
+- All of the above feature make the filter more casual player oriented :) 
