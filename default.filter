@@ -2049,7 +2049,7 @@ ItemDisplay[(ARMOR OR WEAPON) NMAG !RW (SOCK>0 OR ETH)]: %NAME%%GRAY%%CONTINUE%
 ItemDisplay[CRAFT]: %NAME%%ORANGE%%CONTINUE%
 
 //Show Weapon Speed & Range
-ItemDisplay[WEAPON !BOW !XBOW !WAND !SOR]: %NAME%{%WHITE%Speed: %WPNSPD% %GRAY%|| %WHITE%Range: +%RANGE%%NAME%}%CONTINUE%
+ItemDisplay[WEAPON !BOW !XBOW !WAND !SOR]: %NAME%{%WHITE%Speed: %WPNSPD% %GRAY%|| %WHITE%Range: +%RANGE%%NAME%%NL%}%CONTINUE%
 ItemDisplay[WEAPON (BOW OR XBOW)]: %NAME%{%NAME%%WHITE%Speed: %WPNSPD%}%CONTINUE%
 
 //Notes about socketing recipes
@@ -2099,7 +2099,7 @@ ItemDisplay[(axe OR 9ax OR 7ax OR lax OR 9wh OR 7wh OR 9bs OR 7bs OR 9ls OR 7ls 
 //always 5
 ItemDisplay[(92a OR 72a OR 9la OR 9ba OR 9bt OR 7la OR 7ba OR 7bt OR 9fl OR 7fl OR 9fb OR 7fb OR 9br OR 7br OR 7s8 OR 7pa OR 8s8 OR 8sw OR 6s7 OR 6sw OR 8rx OR 6rx OR 9ws OR 7ws OR amb OR am7 OR amc) NMAG SOCK=0]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%5%TAN%]}%CONTINUE%
 //always 6
-ItemDisplay[(9mp OR 9wa OR 7mp OR 7wa OR 9ga OR 9gi OR 7ga OR 7gi OR 9m9 OR 9gm OR 7m7 OR 7gm OR 7cr OR 9gd OR 7gd OR 9st OR 9p9 OR 7st OR 7p7 OR 9h9 OR 9wc OR 7h7 OR 7wc OR 8l8 OR 8lw OR 6l7 OR 6lw OR 8hx OR 6hx OR 8ws OR 6ws OR am8 OR am9 OR amd OR ame) NMAG SOCK=0]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%6%TAN%]}%CONTINUE%
+ItemDisplay[(9mp OR 9wa OR 7mp OR 7wa OR 9ga OR 9gi OR 7ga OR 7gi OR 9m9 OR 9gm OR 7m7 OR 7gm OR 7cr OR 9gd OR 7gd OR 9st OR 9p9 OR 7st OR 7p7 OR 9h9 OR 9wc OR 7h7 OR 7wc OR 8l8 OR 8lw OR 6l7 OR 6lw OR 8hx OR 6hx OR 8ws OR 6ws OR am8 OR am9 OR amd OR ame) NMAG SOCK=0]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%6%TAN%]}%CONTINUE%
 //varies 2/3/3
 ItemDisplay[(kri OR clw OR btl OR skr OR ob5) NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%2%TAN%]}%CONTINUE%
 ItemDisplay[(kri OR clw OR btl OR skr OR ob5) NMAG SOCK=0 ILVL>25]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%3%TAN%]}%CONTINUE%
@@ -2113,7 +2113,7 @@ ItemDisplay[(fla OR flb OR brn OR scy OR pax OR 9s8 OR 9pa OR lbw OR 8lb OR sbb 
 //varies 3/4/6
 ItemDisplay[(mau OR gma OR crs OR 9cr OR gsd OR spt OR pik OR hal OR wsc OR lbb OR lwb OR hxb OR am3 OR am4) NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%3%TAN%]}%CONTINUE%
 ItemDisplay[(mau OR gma OR crs OR 9cr OR gsd OR spt OR pik OR hal OR wsc OR lbb OR lwb OR hxb OR am3 OR am4) NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%4%TAN%]}%CONTINUE%
-ItemDisplay[(mau OR gma OR crs OR 9cr OR gsd OR spt OR pik OR hal OR wsc OR lbb OR lwb OR hxb OR am3 OR am4) NMAG SOCK=0 ILVL>40]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%6%TAN%]}%CONTINUE%
+ItemDisplay[(mau OR gma OR crs OR 9cr OR gsd OR spt OR pik OR hal OR wsc OR lbb OR lwb OR hxb OR am3 OR am4) NMAG SOCK=0 ILVL>40]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%6%TAN%]}%CONTINUE%
 //varies 3/5/5
 ItemDisplay[wsp NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%3%TAN%]}%CONTINUE%
 ItemDisplay[wsp NMAG SOCK=0 ILVL>25]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%5%TAN%]}%CONTINUE%
@@ -2123,10 +2123,10 @@ ItemDisplay[(2ax OR bax OR btx) NMAG SOCK=0 ILVL>25]: %NAME%{%NAME%%NL%%WHITE%Ma
 //varies 4/5/6
 ItemDisplay[(mpi OR wax OR gax OR gix) NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%4%TAN%]}%CONTINUE%
 ItemDisplay[(mpi OR wax OR gax OR gix) NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%5%TAN%]}%CONTINUE%
-ItemDisplay[(mpi OR wax OR gax OR gix) NMAG SOCK=0 ILVL>40]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%6%TAN%]}%CONTINUE%
+ItemDisplay[(mpi OR wax OR gax OR gix) NMAG SOCK=0 ILVL>40]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%6%TAN%]}%CONTINUE%
 //varies 5/6/6
-ItemDisplay[wst NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%5%TAN%]}%CONTINUE%
-ItemDisplay[wst NMAG SOCK=0 ILVL>25]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%6%TAN%]}%CONTINUE%
+ItemDisplay[wst NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%5%TAN%]}%CONTINUE%
+ItemDisplay[wst NMAG SOCK=0 ILVL>25]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%6%TAN%]}%CONTINUE%
 
 //Notes about possible RuneWords
 // Runewords For Helms
@@ -2308,7 +2308,7 @@ ItemDisplay[BELT MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Eld%WHITE% | Bt
 ItemDisplay[SHIELD MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Sol%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Dol%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Eth %WHITE%| S: Perf %GREEN%O%ORANGE%, Nef%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ith%WHITE% | C: Perf %PURPLE%O%ORANGE%, Eth%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
 ItemDisplay[HELM MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Lum%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Tir%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Ith %WHITE%| S: Perf %GREEN%O%ORANGE%, Ith%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ral%WHITE% | C: Perf %PURPLE%O%ORANGE%, Nef%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
 ItemDisplay[CHEST MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Tir%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Eld%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Nef %WHITE%| S: Perf %GREEN%O%ORANGE%, Eth%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Thul%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tal%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-ItemDisplay[WEAPON !(BOW OR XBOW) MAG ID]: %NAME%{%NAME%%NL%%WHITE%V: Perf %GRAY%O%ORANGE%, Shael%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Shael%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tir %WHITE%| S: %GRAY%x/Bows only%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ort%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tir%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
+ItemDisplay[WEAPON !(BOW OR XBOW) MAG ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Shael%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Shael%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tir %WHITE%| S: %GRAY%x/Bows only%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ort%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tir%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
 ItemDisplay[(BOW OR XBOW) MAG ID]: %NAME%{%NAME%%NL%%WHITE%V: Perf %GRAY%O%ORANGE%, Shael%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Shael%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tir %WHITE%| S: Perf %GREEN%O%ORANGE%, Sol%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ort%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tir%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
 ItemDisplay[amu MAG]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Dol%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Ko%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Thul %WHITE%| S: Perf %GREEN%O%ORANGE%, Thul%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Amn%WHITE% | C: Perf %PURPLE%O%ORANGE%, Ral%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
 ItemDisplay[rin MAG]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Hel%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Lum%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Amn %WHITE%| S: Perf %GREEN%O%ORANGE%, Amn%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Sol%WHITE% | C: Perf %PURPLE%O%ORANGE%, Amn%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
@@ -2316,20 +2316,20 @@ ItemDisplay[rin MAG]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Hel%WHITE% | Btf: P
 //Notes for upgrading
 ItemDisplay[ARMOR NORM RARE ID]: %NAME%{%YELLOW%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Thul%WHITE%, Perf %PURPLE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 ItemDisplay[ARMOR EXC RARE ID]: %NAME%{%YELLOW%This Item%WHITE%, %ORANGE%Ko%WHITE%, %ORANGE%Pul%WHITE%, Perf %PURPLE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON NORM RARE ID]: %NAME%{%NAME%%NL%%YELLOW%This Item%WHITE%, %ORANGE%Ort%WHITE%, %ORANGE%Amn%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON EXC RARE ID]: %NAME%{%NAME%%NL%%YELLOW%This Item%WHITE%, %ORANGE%Fal%WHITE%, %ORANGE%Um%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON NORM RARE ID]: %NAME%{%NAME%%YELLOW%This Item%WHITE%, %ORANGE%Ort%WHITE%, %ORANGE%Amn%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON EXC RARE ID]: %NAME%{%NAME%%YELLOW%This Item%WHITE%, %ORANGE%Fal%WHITE%, %ORANGE%Um%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 ItemDisplay[ARMOR NORM CRAFT ID]: %NAME%{%ORANGE%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Thul%WHITE%, Perf %PURPLE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 ItemDisplay[ARMOR EXC CRAFT ID]: %NAME%{%ORANGE%This Item%WHITE%, %ORANGE%Ko%WHITE%, %ORANGE%Pul%WHITE%, Perf %PURPLE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON NORM CRAFT ID]: %NAME%{%NAME%%NL%%ORANGE%This Item%WHITE%, %ORANGE%Ort%WHITE%, %ORANGE%Amn%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON EXC CRAFT ID]: %NAME%{%NAME%%NL%%ORANGE%This Item%WHITE%, %ORANGE%Fal%WHITE%, %ORANGE%Um%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON NORM CRAFT ID]: %NAME%{%NAME%%ORANGE%This Item%WHITE%, %ORANGE%Ort%WHITE%, %ORANGE%Amn%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON EXC CRAFT ID]: %NAME%{%NAME%%ORANGE%This Item%WHITE%, %ORANGE%Fal%WHITE%, %ORANGE%Um%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 ItemDisplay[ARMOR NORM UNI ID]: %NAME%{%GOLD%This Item%WHITE%, %ORANGE%Tal%WHITE%, %ORANGE%Shael%WHITE%, Perf O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 ItemDisplay[ARMOR EXC UNI ID]: %NAME%{%NAME%%GOLD%This Item%WHITE%, %ORANGE%Ko%WHITE%, %ORANGE%Lem%WHITE%, Perf O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON NORM UNI ID]: %NAME%{%NAME%%NL%%GOLD%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Sol%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON EXC UNI ID]: %NAME%{%NAME%%NL%%GOLD%This Item%WHITE%, %ORANGE%Lum%WHITE%, %ORANGE%Pul%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON NORM UNI ID]: %NAME%{%NAME%%GOLD%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Sol%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON EXC UNI ID]: %NAME%{%NAME%%GOLD%This Item%WHITE%, %ORANGE%Lum%WHITE%, %ORANGE%Pul%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 ItemDisplay[ARMOR NORM SET ID]: %NAME%{%GREEN%This Item%WHITE%, %ORANGE%Tal%WHITE%, %ORANGE%Shael%WHITE%, Perf O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 ItemDisplay[ARMOR EXC SET ID]: %NAME%{%GREEN%This Item%WHITE%, %ORANGE%Ko%WHITE%, %ORANGE%Lem%WHITE%, Perf O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON NORM SET ID]: %NAME%{%NAME%%NL%%GREEN%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Sol%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON EXC SET ID]: %NAME%{%NAME%%NL%%GREEN%This Item%WHITE%, %ORANGE%Lum%WHITE%, %ORANGE%Pul%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON NORM SET ID]: %NAME%{%NAME%%GREEN%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Sol%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON EXC SET ID]: %NAME%{%NAME%%GREEN%This Item%WHITE%, %ORANGE%Lum%WHITE%, %ORANGE%Pul%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 
 //BAZI UPGRADE
 // Descriptions for Upgraded Item Requirements (non-eth normal armor)
@@ -3092,11 +3092,11 @@ ItemDisplay[(lbw OR 8lb) (RARE OR CRAFT OR UNI OR SET) ID SOCK=0 STAT360=0]: %NA
 
 //Info about Max Sockets from all sources of socketing
 //opener
-ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR WEAPON) !THROWING (RARE OR CRAFT OR UNI OR SET) (NORM OR EXC) ID SOCK=0]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR WEAPON) !THROWING (RARE OR CRAFT OR UNI OR SET) (NORM OR EXC) ID SOCK=0]: %NAME%{%NAME%%NL%}%CONTINUE%
 ItemDisplay[((CHEST OR HELM OR SHIELD) OR WEAPON) !THROWING MAG ID SOCK=0]: %NAME%{%NAME%%NL%}%CONTINUE%
 ItemDisplay[(dgr OR dir OR wnd OR ywn OR 9wn OR (ci0 ILVL<26)) MAG ID SOCK=0]: %NAME%{%NAME%%WHITE%Max Sockets: %TAN%[%WHITE%Q:1}%CONTINUE%
 ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR WEAPON) !(THROWING OR dgr OR dir OR wnd OR ywn OR 9wn OR (ci0 ILVL<26)) MAG ID SOCK=0]: %NAME%{%NAME%%WHITE%Max Sockets: %TAN%[%WHITE%Q:2}%CONTINUE%
-ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR WEAPON) !THROWING (RARE OR CRAFT OR UNI OR SET) ID SOCK=0]: %NAME%{%NAME%%NL%%WHITE%Max Sockets: %TAN%[%WHITE%Q:1}%CONTINUE%
+ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR WEAPON) !THROWING (RARE OR CRAFT OR UNI OR SET) ID SOCK=0]: %NAME%{%NAME%%WHITE%Max Sockets: %TAN%[%WHITE%Q:1}%CONTINUE%
 ItemDisplay[(dgr OR dir OR wnd OR ywn OR 9wn OR (ci0 ILVL<26) OR buc OR xuc) (RARE OR CRAFT OR UNI OR SET OR MAG) ID SOCK=0]: %NAME%{%NAME%, %TAN%PB%WHITE%:1}%CONTINUE%
 ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR 1H) !(THROWING OR dgr OR dir OR wnd OR ywn OR 9wn OR (ci0 ILVL<26) OR buc OR xuc) (RARE OR CRAFT OR UNI OR SET OR MAG) ID SOCK=0]: %NAME%{%NAME%, %TAN%PB%WHITE%:2}%CONTINUE%
 ItemDisplay[sst (RARE OR CRAFT OR UNI OR SET OR MAG) ID SOCK=0]: %NAME%{%NAME%, %TAN%PB%WHITE%:2}%CONTINUE%
