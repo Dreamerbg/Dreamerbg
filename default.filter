@@ -583,25 +583,25 @@ ItemDisplay[GEM<3 DIFF>0]:
 ItemDisplay[GEM<4 DIFF>1]:
 //amethysts
 ItemDisplay[GEMTYPE=1 GEM<4]: %NAME% %ORANGE%[%PURPLE%*%ORANGE%]
-ItemDisplay[GEMTYPE=1 GEM>3]: %PX-62%%NAME% %ORANGE%[%PURPLE%O%ORANGE%]%CONTINUE%
+ItemDisplay[GEMTYPE=1 GEM>3]: %PX-20%%NAME% %ORANGE%[%PURPLE%O%ORANGE%]%CONTINUE%
 //diamonds
 ItemDisplay[GEMTYPE=2 GEM<4]: %NAME% %ORANGE%[%WHITE%*%ORANGE%]
-ItemDisplay[GEMTYPE=2 GEM>3]: %PX-62%%NAME% %ORANGE%[%WHITE%O%ORANGE%]%CONTINUE%
+ItemDisplay[GEMTYPE=2 GEM>3]: %PX-20%%NAME% %ORANGE%[%WHITE%O%ORANGE%]%CONTINUE%
 //emeralds
 ItemDisplay[GEMTYPE=3 GEM<4]: %NAME% %ORANGE%[%GREEN%*%ORANGE%]
-ItemDisplay[GEMTYPE=3 GEM>3]: %PX-62%%NAME% %ORANGE%[%GREEN%O%ORANGE%]%CONTINUE%
+ItemDisplay[GEMTYPE=3 GEM>3]: %PX-20%%NAME% %ORANGE%[%GREEN%O%ORANGE%]%CONTINUE%
 //rubys
 ItemDisplay[GEMTYPE=4 GEM<4]: %NAME% %ORANGE%[%RED%*%ORANGE%]
-ItemDisplay[GEMTYPE=4 GEM>3]: %PX-62%%NAME% %ORANGE%[%RED%O%ORANGE%]%CONTINUE%
+ItemDisplay[GEMTYPE=4 GEM>3]: %PX-20%%NAME% %ORANGE%[%RED%O%ORANGE%]%CONTINUE%
 //sapphires
 ItemDisplay[GEMTYPE=5 GEM<4]: %NAME% %ORANGE%[%BLUE%*%ORANGE%]
-ItemDisplay[GEMTYPE=5 GEM>3]: %PX-62%%NAME% %ORANGE%[%BLUE%O%ORANGE%]%CONTINUE%
+ItemDisplay[GEMTYPE=5 GEM>3]: %PX-20%%NAME% %ORANGE%[%BLUE%O%ORANGE%]%CONTINUE%
 //topazes
 ItemDisplay[GEMTYPE=6 GEM<4]: %NAME% %ORANGE%[%YELLOW%*%ORANGE%]
-ItemDisplay[GEMTYPE=6 GEM>3]: %PX-62%%NAME% %ORANGE%[%YELLOW%O%ORANGE%]%CONTINUE%
+ItemDisplay[GEMTYPE=6 GEM>3]: %PX-20%%NAME% %ORANGE%[%YELLOW%O%ORANGE%]%CONTINUE%
 //skulls
 ItemDisplay[GEMTYPE=7 GEM<4]: %NAME% %ORANGE%[%GRAY%*%ORANGE%]
-ItemDisplay[GEMTYPE=7 GEM>3]: %PX-62%%NAME% %ORANGE%[%GRAY%O%ORANGE%]%CONTINUE%
+ItemDisplay[GEMTYPE=7 GEM>3]: %PX-20%%NAME% %ORANGE%[%GRAY%O%ORANGE%]%CONTINUE%
 
 //Runes
 ItemDisplay[(RUNE<15 OR RUNE=16 OR RUNE=17) (CLVL>1 AND CLVL<80)]: %PX-62%%ORANGE%%RUNENAME% %GRAY%[%TAN%%RUNENUM%%GRAY%]%CONTINUE%
@@ -2314,16 +2314,16 @@ ItemDisplay[amu MAG]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Dol%WHITE% | Btf: P
 ItemDisplay[rin MAG]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Hel%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Lum%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Amn %WHITE%| S: Perf %GREEN%O%ORANGE%, Amn%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Sol%WHITE% | C: Perf %PURPLE%O%ORANGE%, Amn%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
 
 //Notes for crafting RARES still need to combine both
-ItemDisplay[GLOVES RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Io%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Hel%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Ort %WHITE%| S: Perf %GREEN%O%ORANGE%, Ral%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Nef%WHITE% | C: Perf %PURPLE%O%ORANGE%, Ort%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-ItemDisplay[BOOTS RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, El%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Io%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Ral %WHITE%| S: Perf %GREEN%O%ORANGE%, Ort%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Eth%WHITE% | C: Perf %PURPLE%O%ORANGE%, Thul%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-ItemDisplay[BELT RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Eld%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, El%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tal %WHITE%| S: Perf %GREEN%O%ORANGE%, Tal%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Tal%WHITE% | C: Perf %PURPLE%O%ORANGE%, Ith%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-ItemDisplay[SHIELD RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Sol%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Dol%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Eth %WHITE%| S: Perf %GREEN%O%ORANGE%, Nef%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ith%WHITE% | C: Perf %PURPLE%O%ORANGE%, Eth%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-ItemDisplay[HELM RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Lum%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Tir%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Ith %WHITE%| S: Perf %GREEN%O%ORANGE%, Ith%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ral%WHITE% | C: Perf %PURPLE%O%ORANGE%, Nef%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-ItemDisplay[CHEST RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Tir%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Eld%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Nef %WHITE%| S: Perf %GREEN%O%ORANGE%, Eth%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Thul%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tal%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-ItemDisplay[WEAPON !(BOW OR XBOW) RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Shael%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Shael%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tir %WHITE%| S: %GRAY%x/Bows only%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ort%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tir%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-ItemDisplay[(BOW OR XBOW) RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Shael%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Shael%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tir %WHITE%| S: Perf %GREEN%O%ORANGE%, Sol%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ort%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tir%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-ItemDisplay[amu RARE]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Dol%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Ko%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Thul %WHITE%| S: Perf %GREEN%O%ORANGE%, Thul%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Amn%WHITE% | C: Perf %PURPLE%O%ORANGE%, Ral%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-ItemDisplay[rin RARE]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Hel%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Lum%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Amn %WHITE%| S: Perf %GREEN%O%ORANGE%, Amn%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Sol%WHITE% | C: Perf %PURPLE%O%ORANGE%, Amn%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
+//ItemDisplay[GLOVES RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Io%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Hel%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Ort %WHITE%| S: Perf %GREEN%O%ORANGE%, Ral%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Nef%WHITE% | C: Perf %PURPLE%O%ORANGE%, Ort%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
+//ItemDisplay[BOOTS RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, El%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Io%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Ral %WHITE%| S: Perf %GREEN%O%ORANGE%, Ort%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Eth%WHITE% | C: Perf %PURPLE%O%ORANGE%, Thul%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
+//ItemDisplay[BELT RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Eld%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, El%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tal %WHITE%| S: Perf %GREEN%O%ORANGE%, Tal%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Tal%WHITE% | C: Perf %PURPLE%O%ORANGE%, Ith%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
+//ItemDisplay[SHIELD RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Sol%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Dol%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Eth %WHITE%| S: Perf %GREEN%O%ORANGE%, Nef%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ith%WHITE% | C: Perf %PURPLE%O%ORANGE%, Eth%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
+//ItemDisplay[HELM RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Lum%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Tir%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Ith %WHITE%| S: Perf %GREEN%O%ORANGE%, Ith%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ral%WHITE% | C: Perf %PURPLE%O%ORANGE%, Nef%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
+//ItemDisplay[CHEST RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Tir%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Eld%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Nef %WHITE%| S: Perf %GREEN%O%ORANGE%, Eth%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Thul%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tal%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
+//ItemDisplay[WEAPON !(BOW OR XBOW) RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Shael%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Shael%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tir %WHITE%| S: %GRAY%x/Bows only%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ort%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tir%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
+//ItemDisplay[(BOW OR XBOW) RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Shael%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Shael%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tir %WHITE%| S: Perf %GREEN%O%ORANGE%, Sol%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ort%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tir%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
+//ItemDisplay[amu RARE]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Dol%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Ko%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Thul %WHITE%| S: Perf %GREEN%O%ORANGE%, Thul%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Amn%WHITE% | C: Perf %PURPLE%O%ORANGE%, Ral%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
+//ItemDisplay[rin RARE]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Hel%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Lum%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Amn %WHITE%| S: Perf %GREEN%O%ORANGE%, Amn%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Sol%WHITE% | C: Perf %PURPLE%O%ORANGE%, Amn%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
 
 //Notes for upgrading
 ItemDisplay[ARMOR NORM RARE ID]: %NAME%{%NAME%%NL%%YELLOW%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Thul%WHITE%, Perf %PURPLE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
