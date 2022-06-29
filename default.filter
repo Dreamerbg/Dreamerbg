@@ -2048,18 +2048,14 @@ ItemDisplay[(ARMOR OR WEAPON) NMAG !ETH (SOCK=0 OR THROWING) !opm]: %NAME%%WHITE
 ItemDisplay[(ARMOR OR WEAPON) NMAG !RW (SOCK>0 OR ETH)]: %NAME%%GRAY%%CONTINUE%
 ItemDisplay[CRAFT]: %NAME%%ORANGE%%CONTINUE%
 
-//Show Weapon Speed & Range
-ItemDisplay[WEAPON !BOW !XBOW !WAND !SOR]: %NAME%{%WHITE%Speed: %WPNSPD% %GRAY%|| %WHITE%Range: +%RANGE%%NAME%%NL%}%CONTINUE%
-ItemDisplay[WEAPON (BOW OR XBOW)]: %NAME%{%WHITE%Speed: %WPNSPD%%NAME%%NL%}%CONTINUE%
-
 //Notes about socketing recipes
 ItemDisplay[CHEST !INF !SUP SOCK=0 NMAG]: %NAME%{%WHITE%This Item, %ORANGE%Tal%WHITE%, %ORANGE%Thul%WHITE%, Perf %YELLOW%O%NL%%TAN%Note%WHITE%: Socketing Recipe:}%CONTINUE%
-ItemDisplay[(WEAPON AND !THROWING) !INF !SUP SOCK=0 NMAG]: %NAME%{%WHITE%This Item, %ORANGE%Ral%WHITE%, %ORANGE%Amn%WHITE%, Perf %PURPLE%O%NL%%TAN%Note%WHITE%: Socketing Recipe: %NL%%NAME%}%CONTINUE%
+ItemDisplay[(WEAPON AND !THROWING) !INF !SUP SOCK=0 NMAG]: %NAME%{%WHITE%This Item, %ORANGE%Ral%WHITE%, %ORANGE%Amn%WHITE%, Perf %PURPLE%O%NL%%TAN%Note%WHITE%: Socketing Recipe:}%CONTINUE%
 ItemDisplay[(HELM OR CIRC) !INF !SUP SOCK=0 NMAG]: %NAME%{%WHITE%This Item, %ORANGE%Ral%WHITE%, %ORANGE%Thul%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Socketing Recipe:}%CONTINUE%
 ItemDisplay[SHIELD !INF !SUP SOCK=0 NMAG]: %NAME%{%WHITE%This Item, %ORANGE%Tal%WHITE%, %ORANGE%Amn%WHITE%, Perf %RED%O%NL%%TAN%Note%WHITE%: Socketing Recipe:}%CONTINUE%
 
 //Notes about socketing INF/SUP items
-ItemDisplay[(CHEST OR (WEAPON AND !THROWING) OR HELM OR CIRC OR SHIELD) (INF OR SUP) NMAG SOCK=0]: %NAME%{%WHITE%or %RED%Corrupt %WHITE%for Random Sockets%NL%%TAN%Note%WHITE%: Larzuk for Max Sockets,%NL%%NAME%}%CONTINUE%
+ItemDisplay[(CHEST OR (WEAPON AND !THROWING) OR HELM OR CIRC OR SHIELD) (INF OR SUP) NMAG SOCK=0]: %NAME%{%WHITE%or %RED%Corrupt %WHITE%for Random Sockets%NL%%TAN%Note%WHITE%: Larzuk for Max Sockets,}%CONTINUE%
 
 //Notes about Max Sockets in NMAG items
 //helmets & circlets
@@ -2089,44 +2085,44 @@ ItemDisplay[NEC NORM NMAG SOCK=0]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN
 ItemDisplay[NEC (EXC OR ELT) NMAG SOCK=0]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%3%TAN%]}%CONTINUE%
 //Weapons
 //always 1
-ItemDisplay[(dgr OR dir OR wnd OR ywn OR 9wn) NMAG SOCK=0]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%1%TAN%]}%CONTINUE%
+ItemDisplay[(dgr OR dir OR wnd OR ywn OR 9wn) NMAG SOCK=0]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%1%TAN%]}%CONTINUE%
 //always 2
-ItemDisplay[(hax OR clb OR spc OR 9sp OR 7sp OR mac OR ssd OR scm OR sbr OR flc OR 9dg OR 9di OR 7dg OR 7di OR bld OR 9bl OR 7bl OR sst OR (WAND !(wnd OR ywn OR 9wn)) OR scp OR ktr OR wrb OR axf OR ces OR (SOR !(ob5 OR oba OR obf))) NMAG SOCK=0]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%2%TAN%]}%CONTINUE%
+ItemDisplay[(hax OR clb OR spc OR 9sp OR 7sp OR mac OR ssd OR scm OR sbr OR flc OR 9dg OR 9di OR 7dg OR 7di OR bld OR 9bl OR 7bl OR sst OR (WAND !(wnd OR ywn OR 9wn)) OR scp OR ktr OR wrb OR axf OR ces OR (SOR !(ob5 OR oba OR obf))) NMAG SOCK=0]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%2%TAN%]}%CONTINUE%
 //always 3
-ItemDisplay[(9ha OR 7ha OR 9cl OR 7cl OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR 9ss OR 9sm OR 9sb OR 9fc OR 7ss OR 7sm OR 7sb OR 7fc OR wsd OR 9wd OR 7wd OR 2hs OR 92h OR 72h OR 9kr OR 7kr OR spr OR 9sr OR 7sr OR bar OR sbw OR lxb OR 8ss OR 6ss OR lst OR 8ls OR 6ls OR 9sc OR 7sc OR gsc OR 9qs OR 7qs OR (SIN !(ktr OR wrb OR axf OR ces OR clw OR btl OR skr)) OR oba OR obf) NMAG SOCK=0]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%3%TAN%]}%CONTINUE%
+ItemDisplay[(9ha OR 7ha OR 9cl OR 7cl OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR 9ss OR 9sm OR 9sb OR 9fc OR 7ss OR 7sm OR 7sb OR 7fc OR wsd OR 9wd OR 7wd OR 2hs OR 92h OR 72h OR 9kr OR 7kr OR spr OR 9sr OR 7sr OR bar OR sbw OR lxb OR 8ss OR 6ss OR lst OR 8ls OR 6ls OR 9sc OR 7sc OR gsc OR 9qs OR 7qs OR (SIN !(ktr OR wrb OR axf OR ces OR clw OR btl OR skr)) OR oba OR obf) NMAG SOCK=0]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%3%TAN%]}%CONTINUE%
 //always 4
-ItemDisplay[(axe OR 9ax OR 7ax OR lax OR 9wh OR 7wh OR 9bs OR 7bs OR 9ls OR 7ls OR 9cm OR 9gs OR 9b9 OR 7cm OR 7gs OR 7b7 OR 9tr OR 7tr OR 9b7 OR 9vo OR 7o7 OR 7vo OR 8sb OR 6sb OR 8hb OR 6hb OR 8cb OR 6cb OR 8lx OR 6lx OR 8mx OR 6mx OR cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs) NMAG SOCK=0]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%4%TAN%]}%CONTINUE%
+ItemDisplay[(axe OR 9ax OR 7ax OR lax OR 9wh OR 7wh OR 9bs OR 7bs OR 9ls OR 7ls OR 9cm OR 9gs OR 9b9 OR 7cm OR 7gs OR 7b7 OR 9tr OR 7tr OR 9b7 OR 9vo OR 7o7 OR 7vo OR 8sb OR 6sb OR 8hb OR 6hb OR 8cb OR 6cb OR 8lx OR 6lx OR 8mx OR 6mx OR cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs) NMAG SOCK=0]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%4%TAN%]}%CONTINUE%
 //always 5
-ItemDisplay[(92a OR 72a OR 9la OR 9ba OR 9bt OR 7la OR 7ba OR 7bt OR 9fl OR 7fl OR 9fb OR 7fb OR 9br OR 7br OR 7s8 OR 7pa OR 8s8 OR 8sw OR 6s7 OR 6sw OR 8rx OR 6rx OR 9ws OR 7ws OR amb OR am7 OR amc) NMAG SOCK=0]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%5%TAN%]}%CONTINUE%
+ItemDisplay[(92a OR 72a OR 9la OR 9ba OR 9bt OR 7la OR 7ba OR 7bt OR 9fl OR 7fl OR 9fb OR 7fb OR 9br OR 7br OR 7s8 OR 7pa OR 8s8 OR 8sw OR 6s7 OR 6sw OR 8rx OR 6rx OR 9ws OR 7ws OR amb OR am7 OR amc) NMAG SOCK=0]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%5%TAN%]}%CONTINUE%
 //always 6
-ItemDisplay[(9mp OR 9wa OR 7mp OR 7wa OR 9ga OR 9gi OR 7ga OR 7gi OR 9m9 OR 9gm OR 7m7 OR 7gm OR 7cr OR 9gd OR 7gd OR 9st OR 9p9 OR 7st OR 7p7 OR 9h9 OR 9wc OR 7h7 OR 7wc OR 8l8 OR 8lw OR 6l7 OR 6lw OR 8hx OR 6hx OR 8ws OR 6ws OR am8 OR am9 OR amd OR ame) NMAG SOCK=0]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%6%TAN%]}%CONTINUE%
+ItemDisplay[(9mp OR 9wa OR 7mp OR 7wa OR 9ga OR 9gi OR 7ga OR 7gi OR 9m9 OR 9gm OR 7m7 OR 7gm OR 7cr OR 9gd OR 7gd OR 9st OR 9p9 OR 7st OR 7p7 OR 9h9 OR 9wc OR 7h7 OR 7wc OR 8l8 OR 8lw OR 6l7 OR 6lw OR 8hx OR 6hx OR 8ws OR 6ws OR am8 OR am9 OR amd OR ame) NMAG SOCK=0]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%6%TAN%]}%CONTINUE%
 //varies 2/3/3
-ItemDisplay[(kri OR clw OR btl OR skr OR ob5) NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%2%TAN%]}%CONTINUE%
-ItemDisplay[(kri OR clw OR btl OR skr OR ob5) NMAG SOCK=0 ILVL>25]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%3%TAN%]}%CONTINUE%
+ItemDisplay[(kri OR clw OR btl OR skr OR ob5) NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%2%TAN%]}%CONTINUE%
+ItemDisplay[(kri OR clw OR btl OR skr OR ob5) NMAG SOCK=0 ILVL>25]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%3%TAN%]}%CONTINUE%
 //varies 3/4/4
-ItemDisplay[(whm OR bsd OR lsd OR clm OR gis OR bsw OR tri OR vou OR hbw OR cbw OR mxb) NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%3%TAN%]}%CONTINUE%
-ItemDisplay[(whm OR bsd OR lsd OR clm OR gis OR bsw OR tri OR vou OR hbw OR cbw OR mxb) NMAG SOCK=0 ILVL>25]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%4%TAN%]}%CONTINUE%
+ItemDisplay[(whm OR bsd OR lsd OR clm OR gis OR bsw OR tri OR vou OR hbw OR cbw OR mxb) NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%3%TAN%]}%CONTINUE%
+ItemDisplay[(whm OR bsd OR lsd OR clm OR gis OR bsw OR tri OR vou OR hbw OR cbw OR mxb) NMAG SOCK=0 ILVL>25]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%4%TAN%]}%CONTINUE%
 //varies 3/4/5
-ItemDisplay[(fla OR flb OR brn OR scy OR pax OR 9s8 OR 9pa OR lbw OR 8lb OR sbb OR swb OR am1 OR am2 OR am6) NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%3%TAN%]}%CONTINUE%
-ItemDisplay[(fla OR flb OR brn OR scy OR pax OR 9s8 OR 9pa OR lbw OR 8lb OR sbb OR swb OR am1 OR am2 OR am6) NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%4%TAN%]}%CONTINUE%
-ItemDisplay[(fla OR flb OR brn OR scy OR pax OR 9s8 OR 9pa OR lbw OR 8lb OR sbb OR swb OR am1 OR am2 OR am6) NMAG SOCK=0 ILVL>40]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%5%TAN%]}%CONTINUE%
+ItemDisplay[(fla OR flb OR brn OR scy OR pax OR 9s8 OR 9pa OR lbw OR 8lb OR sbb OR swb OR am1 OR am2 OR am6) NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%3%TAN%]}%CONTINUE%
+ItemDisplay[(fla OR flb OR brn OR scy OR pax OR 9s8 OR 9pa OR lbw OR 8lb OR sbb OR swb OR am1 OR am2 OR am6) NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%4%TAN%]}%CONTINUE%
+ItemDisplay[(fla OR flb OR brn OR scy OR pax OR 9s8 OR 9pa OR lbw OR 8lb OR sbb OR swb OR am1 OR am2 OR am6) NMAG SOCK=0 ILVL>40]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%5%TAN%]}%CONTINUE%
 //varies 3/4/6
-ItemDisplay[(mau OR gma OR crs OR 9cr OR gsd OR spt OR pik OR hal OR wsc OR lbb OR lwb OR hxb OR am3 OR am4) NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%3%TAN%]}%CONTINUE%
-ItemDisplay[(mau OR gma OR crs OR 9cr OR gsd OR spt OR pik OR hal OR wsc OR lbb OR lwb OR hxb OR am3 OR am4) NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%4%TAN%]}%CONTINUE%
-ItemDisplay[(mau OR gma OR crs OR 9cr OR gsd OR spt OR pik OR hal OR wsc OR lbb OR lwb OR hxb OR am3 OR am4) NMAG SOCK=0 ILVL>40]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%6%TAN%]}%CONTINUE%
+ItemDisplay[(mau OR gma OR crs OR 9cr OR gsd OR spt OR pik OR hal OR wsc OR lbb OR lwb OR hxb OR am3 OR am4) NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%3%TAN%]}%CONTINUE%
+ItemDisplay[(mau OR gma OR crs OR 9cr OR gsd OR spt OR pik OR hal OR wsc OR lbb OR lwb OR hxb OR am3 OR am4) NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%4%TAN%]}%CONTINUE%
+ItemDisplay[(mau OR gma OR crs OR 9cr OR gsd OR spt OR pik OR hal OR wsc OR lbb OR lwb OR hxb OR am3 OR am4) NMAG SOCK=0 ILVL>40]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%6%TAN%]}%CONTINUE%
 //varies 3/5/5
-ItemDisplay[wsp NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%3%TAN%]}%CONTINUE%
-ItemDisplay[wsp NMAG SOCK=0 ILVL>25]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%5%TAN%]}%CONTINUE%
+ItemDisplay[wsp NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%3%TAN%]}%CONTINUE%
+ItemDisplay[wsp NMAG SOCK=0 ILVL>25]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%5%TAN%]}%CONTINUE%
 //varies 4/5/5
-ItemDisplay[(2ax OR bax OR btx) NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%4%TAN%]}%CONTINUE%
-ItemDisplay[(2ax OR bax OR btx) NMAG SOCK=0 ILVL>25]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%5%TAN%]}%CONTINUE%
+ItemDisplay[(2ax OR bax OR btx) NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%4%TAN%]}%CONTINUE%
+ItemDisplay[(2ax OR bax OR btx) NMAG SOCK=0 ILVL>25]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%5%TAN%]}%CONTINUE%
 //varies 4/5/6
-ItemDisplay[(mpi OR wax OR gax OR gix) NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%4%TAN%]}%CONTINUE%
-ItemDisplay[(mpi OR wax OR gax OR gix) NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%5%TAN%]}%CONTINUE%
-ItemDisplay[(mpi OR wax OR gax OR gix) NMAG SOCK=0 ILVL>40]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%6%TAN%]}%CONTINUE%
+ItemDisplay[(mpi OR wax OR gax OR gix) NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%4%TAN%]}%CONTINUE%
+ItemDisplay[(mpi OR wax OR gax OR gix) NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%5%TAN%]}%CONTINUE%
+ItemDisplay[(mpi OR wax OR gax OR gix) NMAG SOCK=0 ILVL>40]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%6%TAN%]}%CONTINUE%
 //varies 5/6/6
-ItemDisplay[wst NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%5%TAN%]}%CONTINUE%
-ItemDisplay[wst NMAG SOCK=0 ILVL>25]: %NAME%{%NAME%%WHITE%Maximum Sockets: %TAN%[%WHITE%6%TAN%]}%CONTINUE%
+ItemDisplay[wst NMAG SOCK=0 ILVL<26]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%5%TAN%]}%CONTINUE%
+ItemDisplay[wst NMAG SOCK=0 ILVL>25]: %NAME%{%NAME%%NL%%WHITE%Maximum Sockets: %TAN%[%WHITE%6%TAN%]}%CONTINUE%
 
 //Notes about possible RuneWords
 // Runewords For Helms
@@ -2308,751 +2304,28 @@ ItemDisplay[BELT MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Eld%WHITE% | Bt
 ItemDisplay[SHIELD MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Sol%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Dol%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Eth %WHITE%| S: Perf %GREEN%O%ORANGE%, Nef%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ith%WHITE% | C: Perf %PURPLE%O%ORANGE%, Eth%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
 ItemDisplay[HELM MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Lum%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Tir%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Ith %WHITE%| S: Perf %GREEN%O%ORANGE%, Ith%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ral%WHITE% | C: Perf %PURPLE%O%ORANGE%, Nef%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
 ItemDisplay[CHEST MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Tir%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Eld%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Nef %WHITE%| S: Perf %GREEN%O%ORANGE%, Eth%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Thul%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tal%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-ItemDisplay[WEAPON !(BOW OR XBOW) MAG ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Shael%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Shael%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tir %WHITE%| S: %GRAY%x/Bows only%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ort%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tir%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-ItemDisplay[(BOW OR XBOW) MAG ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Shael%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Shael%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tir %WHITE%| S: Perf %GREEN%O%ORANGE%, Sol%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ort%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tir%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
+ItemDisplay[WEAPON !(BOW OR XBOW) MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Shael%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Shael%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tir %WHITE%| S: %GRAY%x/Bows only%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ort%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tir%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
+ItemDisplay[(BOW OR XBOW) MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Shael%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Shael%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tir %WHITE%| S: Perf %GREEN%O%ORANGE%, Sol%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ort%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tir%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
 ItemDisplay[amu MAG]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Dol%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Ko%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Thul %WHITE%| S: Perf %GREEN%O%ORANGE%, Thul%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Amn%WHITE% | C: Perf %PURPLE%O%ORANGE%, Ral%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
 ItemDisplay[rin MAG]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Hel%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Lum%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Amn %WHITE%| S: Perf %GREEN%O%ORANGE%, Amn%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Sol%WHITE% | C: Perf %PURPLE%O%ORANGE%, Amn%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
 
-//Notes for crafting RARES still need to combine both
-//ItemDisplay[GLOVES RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Io%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Hel%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Ort %WHITE%| S: Perf %GREEN%O%ORANGE%, Ral%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Nef%WHITE% | C: Perf %PURPLE%O%ORANGE%, Ort%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-//ItemDisplay[BOOTS RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, El%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Io%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Ral %WHITE%| S: Perf %GREEN%O%ORANGE%, Ort%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Eth%WHITE% | C: Perf %PURPLE%O%ORANGE%, Thul%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-//ItemDisplay[BELT RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Eld%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, El%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tal %WHITE%| S: Perf %GREEN%O%ORANGE%, Tal%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Tal%WHITE% | C: Perf %PURPLE%O%ORANGE%, Ith%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-//ItemDisplay[SHIELD RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Sol%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Dol%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Eth %WHITE%| S: Perf %GREEN%O%ORANGE%, Nef%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ith%WHITE% | C: Perf %PURPLE%O%ORANGE%, Eth%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-//ItemDisplay[HELM RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Lum%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Tir%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Ith %WHITE%| S: Perf %GREEN%O%ORANGE%, Ith%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ral%WHITE% | C: Perf %PURPLE%O%ORANGE%, Nef%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-//ItemDisplay[CHEST RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Tir%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Eld%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Nef %WHITE%| S: Perf %GREEN%O%ORANGE%, Eth%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Thul%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tal%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-//ItemDisplay[WEAPON !(BOW OR XBOW) RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Shael%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Shael%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tir %WHITE%| S: %GRAY%x/Bows only%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ort%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tir%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-//ItemDisplay[(BOW OR XBOW) RARE ID]: %NAME%{%NAME%%WHITE%V: Perf %GRAY%O%ORANGE%, Shael%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Shael%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tir %WHITE%| S: Perf %GREEN%O%ORANGE%, Sol%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Ort%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tir%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-//ItemDisplay[amu RARE]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Dol%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Ko%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Thul %WHITE%| S: Perf %GREEN%O%ORANGE%, Thul%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Amn%WHITE% | C: Perf %PURPLE%O%ORANGE%, Ral%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-//ItemDisplay[rin RARE]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Hel%WHITE% | Btf: Perf %YELLOW%O%ORANGE%, Lum%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Amn %WHITE%| S: Perf %GREEN%O%ORANGE%, Amn%NL%%WHITE%Bld: Perf %RED%O%ORANGE%, Sol%WHITE% | C: Perf %PURPLE%O%ORANGE%, Amn%NL%%TAN%Note%WHITE%: Crafting Recipes: %BLUE%This Item%WHITE%, %BLUE%Jewel%WHITE%,}%CONTINUE%
-
 //Notes for upgrading
-ItemDisplay[ARMOR NORM RARE ID]: %NAME%{%NAME%%NL%%YELLOW%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Thul%WHITE%, Perf %PURPLE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[ARMOR EXC RARE ID]: %NAME%{%NAME%%NL%%YELLOW%This Item%WHITE%, %ORANGE%Ko%WHITE%, %ORANGE%Pul%WHITE%, Perf %PURPLE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON NORM RARE ID]: %NAME%{%NAME%%NL%%YELLOW%This Item%WHITE%, %ORANGE%Ort%WHITE%, %ORANGE%Amn%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON EXC RARE ID]: %NAME%{%NAME%%NL%%YELLOW%This Item%WHITE%, %ORANGE%Fal%WHITE%, %ORANGE%Um%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[ARMOR NORM CRAFT ID]: %NAME%{%NAME%%NL%%ORANGE%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Thul%WHITE%, Perf %PURPLE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[ARMOR EXC CRAFT ID]: %NAME%{%NAME%%NL%%ORANGE%This Item%WHITE%, %ORANGE%Ko%WHITE%, %ORANGE%Pul%WHITE%, Perf %PURPLE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON NORM CRAFT ID]: %NAME%{%NAME%%ORANGE%This Item%WHITE%, %ORANGE%Ort%WHITE%, %ORANGE%Amn%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON EXC CRAFT ID]: %NAME%{%NAME%%ORANGE%This Item%WHITE%, %ORANGE%Fal%WHITE%, %ORANGE%Um%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[ARMOR NORM RARE ID]: %NAME%{%YELLOW%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Thul%WHITE%, Perf %PURPLE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[ARMOR EXC RARE ID]: %NAME%{%YELLOW%This Item%WHITE%, %ORANGE%Ko%WHITE%, %ORANGE%Pul%WHITE%, Perf %PURPLE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON NORM RARE ID]: %NAME%{%YELLOW%This Item%WHITE%, %ORANGE%Ort%WHITE%, %ORANGE%Amn%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON EXC RARE ID]: %NAME%{%YELLOW%This Item%WHITE%, %ORANGE%Fal%WHITE%, %ORANGE%Um%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[ARMOR NORM CRAFT ID]: %NAME%{%ORANGE%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Thul%WHITE%, Perf %PURPLE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[ARMOR EXC CRAFT ID]: %NAME%{%ORANGE%This Item%WHITE%, %ORANGE%Ko%WHITE%, %ORANGE%Pul%WHITE%, Perf %PURPLE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON NORM CRAFT ID]: %NAME%{%ORANGE%This Item%WHITE%, %ORANGE%Ort%WHITE%, %ORANGE%Amn%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON EXC CRAFT ID]: %NAME%{%ORANGE%This Item%WHITE%, %ORANGE%Fal%WHITE%, %ORANGE%Um%WHITE%, Perf %BLUE%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 ItemDisplay[ARMOR NORM UNI ID]: %NAME%{%GOLD%This Item%WHITE%, %ORANGE%Tal%WHITE%, %ORANGE%Shael%WHITE%, Perf O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 ItemDisplay[ARMOR EXC UNI ID]: %NAME%{%NAME%%GOLD%This Item%WHITE%, %ORANGE%Ko%WHITE%, %ORANGE%Lem%WHITE%, Perf O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON NORM UNI ID]: %NAME%{%NAME%%GOLD%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Sol%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON EXC UNI ID]: %NAME%{%NAME%%GOLD%This Item%WHITE%, %ORANGE%Lum%WHITE%, %ORANGE%Pul%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON NORM UNI ID]: %NAME%{%GOLD%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Sol%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON EXC UNI ID]: %NAME%{%GOLD%This Item%WHITE%, %ORANGE%Lum%WHITE%, %ORANGE%Pul%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 ItemDisplay[ARMOR NORM SET ID]: %NAME%{%GREEN%This Item%WHITE%, %ORANGE%Tal%WHITE%, %ORANGE%Shael%WHITE%, Perf O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 ItemDisplay[ARMOR EXC SET ID]: %NAME%{%GREEN%This Item%WHITE%, %ORANGE%Ko%WHITE%, %ORANGE%Lem%WHITE%, Perf O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON NORM SET ID]: %NAME%{%NAME%%GREEN%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Sol%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-ItemDisplay[WEAPON EXC SET ID]: %NAME%{%NAME%%GREEN%This Item%WHITE%, %ORANGE%Lum%WHITE%, %ORANGE%Pul%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
-
-//BAZI UPGRADE
-// Descriptions for Upgraded Item Requirements (non-eth normal armor)
-ItemDisplay[!NMAG !MAG !ETH ID cap]: %NAME%{%TAN%(%GRAY%Str: %WHITE%20%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID skp]: %NAME%{%TAN%(%GRAY%Str: %WHITE%43%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID hlm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%59%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID fhl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%82%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID msk]: %NAME%{%TAN%(%GRAY%Str: %WHITE%55%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID bhm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%58%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ghm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%115%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID crn]: %NAME%{%TAN%(%GRAY%Str: %WHITE%103%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID qui]: %NAME%{%TAN%(%GRAY%Str: %WHITE%38%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID lea]: %NAME%{%TAN%(%GRAY%Str: %WHITE%43%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID hla]: %NAME%{%TAN%(%GRAY%Str: %WHITE%50%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID stu]: %NAME%{%TAN%(%GRAY%Str: %WHITE%61%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID rng]: %NAME%{%TAN%(%GRAY%Str: %WHITE%74%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID scl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%86%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !SET !ETH ID chn]: %NAME%{%TAN%(%GRAY%Str: %WHITE%92%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID brs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%65%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID spl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%97%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID plt]: %NAME%{%TAN%(%GRAY%Str: %WHITE%118%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI !ETH ID fld]: %NAME%{%TAN%(%GRAY%Str: %WHITE%103%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID gth]: %NAME%{%TAN%(%GRAY%Str: %WHITE%125%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ltp]: %NAME%{%TAN%(%GRAY%Str: %WHITE%55%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ful]: %NAME%{%TAN%(%GRAY%Str: %WHITE%140%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID aar]: %NAME%{%TAN%(%GRAY%Str: %WHITE%170%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID buc]: %NAME%{%TAN%(%GRAY%Str: %WHITE%38%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID sml]: %NAME%{%TAN%(%GRAY%Str: %WHITE%53%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID lrg]: %NAME%{%TAN%(%GRAY%Str: %WHITE%71%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID spk]: %NAME%{%TAN%(%GRAY%Str: %WHITE%65%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID kit]: %NAME%{%TAN%(%GRAY%Str: %WHITE%91%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID bsh]: %NAME%{%TAN%(%GRAY%Str: %WHITE%58%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID tow]: %NAME%{%TAN%(%GRAY%Str: %WHITE%133%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID gts]: %NAME%{%TAN%(%GRAY%Str: %WHITE%110%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID lgl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%20%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID vgl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%20%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID mgl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%58%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID tgl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%88%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID hgl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%110%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID lbt]: %NAME%{%TAN%(%GRAY%Str: %WHITE%20%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID vbt]: %NAME%{%TAN%(%GRAY%Str: %WHITE%47%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID mbt]: %NAME%{%TAN%(%GRAY%Str: %WHITE%65%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID tbt]: %NAME%{%TAN%(%GRAY%Str: %WHITE%95%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID hbt]: %NAME%{%TAN%(%GRAY%Str: %WHITE%125%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID lbl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%20%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID vbl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%20%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID mbl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%58%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID tbl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%88%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID hbl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%110%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID (ci0 OR ci1)]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID dr1]: %NAME%{%TAN%(%GRAY%Str: %WHITE%44%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID dr2]: %NAME%{%TAN%(%GRAY%Str: %WHITE%50%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID dr3]: %NAME%{%TAN%(%GRAY%Str: %WHITE%56%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID dr4]: %NAME%{%TAN%(%GRAY%Str: %WHITE%62%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID dr5]: %NAME%{%TAN%(%GRAY%Str: %WHITE%65%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ba1]: %NAME%{%TAN%(%GRAY%Str: %WHITE%58%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ba2]: %NAME%{%TAN%(%GRAY%Str: %WHITE%73%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ba3]: %NAME%{%TAN%(%GRAY%Str: %WHITE%88%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ba4]: %NAME%{%TAN%(%GRAY%Str: %WHITE%103%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ba5]: %NAME%{%TAN%(%GRAY%Str: %WHITE%118%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID pa1]: %NAME%{%TAN%(%GRAY%Str: %WHITE%44%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID pa2]: %NAME%{%TAN%(%GRAY%Str: %WHITE%59%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID pa3]: %NAME%{%TAN%(%GRAY%Str: %WHITE%69%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID pa4]: %NAME%{%TAN%(%GRAY%Str: %WHITE%89%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID pa5]: %NAME%{%TAN%(%GRAY%Str: %WHITE%114%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ne1]: %NAME%{%TAN%(%GRAY%Str: %WHITE%38%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ne2]: %NAME%{%TAN%(%GRAY%Str: %WHITE%41%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ne3]: %NAME%{%TAN%(%GRAY%Str: %WHITE%47%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ne4]: %NAME%{%TAN%(%GRAY%Str: %WHITE%50%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ne5]: %NAME%{%TAN%(%GRAY%Str: %WHITE%58%TAN%)%NL%%NAME%}%CONTINUE%
-
-// Descriptions for Upgraded Item Requirements (non-eth exceptional armor)
-ItemDisplay[!NMAG !MAG !ETH ID xap]: %NAME%{%TAN%(%GRAY%Str: %WHITE%50%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xkp]: %NAME%{%TAN%(%GRAY%Str: %WHITE%84%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xlm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%109%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xhl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%142%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xsk]: %NAME%{%TAN%(%GRAY%Str: %WHITE%102%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xh9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%106%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xhm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%192%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xrn]: %NAME%{%TAN%(%GRAY%Str: %WHITE%174%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xui]: %NAME%{%TAN%(%GRAY%Str: %WHITE%77%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xea]: %NAME%{%TAN%(%GRAY%Str: %WHITE%84%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xla]: %NAME%{%TAN%(%GRAY%Str: %WHITE%95%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xtu]: %NAME%{%TAN%(%GRAY%Str: %WHITE%111%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xng]: %NAME%{%TAN%(%GRAY%Str: %WHITE%131%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xcl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%149%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !SET !ETH ID xhn]: %NAME%{%TAN%(%GRAY%Str: %WHITE%158%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !SET !ETH ID xrs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%118%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xpl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%165%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xlt]: %NAME%{%TAN%(%GRAY%Str: %WHITE%196%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xld]: %NAME%{%TAN%(%GRAY%Str: %WHITE%174%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xth]: %NAME%{%TAN%(%GRAY%Str: %WHITE%208%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xtp]: %NAME%{%TAN%(%GRAY%Str: %WHITE%103%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !SET !ETH ID xul]: %NAME%{%TAN%(%GRAY%Str: %WHITE%230%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !SET !UNI !ETH ID xar]: %NAME%{%TAN%(%GRAY%Str: %WHITE%232%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xuc]: %NAME%{%TAN%(%GRAY%Str: %WHITE%77%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xml]: %NAME%{%TAN%(%GRAY%Str: %WHITE%100%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xrg]: %NAME%{%TAN%(%GRAY%Str: %WHITE%127%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xpk]: %NAME%{%TAN%(%GRAY%Str: %WHITE%118%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xit]: %NAME%{%TAN%(%GRAY%Str: %WHITE%156%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xsh]: %NAME%{%TAN%(%GRAY%Str: %WHITE%106%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xow]: %NAME%{%TAN%(%GRAY%Str: %WHITE%219%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xts]: %NAME%{%TAN%(%GRAY%Str: %WHITE%185%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xlg]: %NAME%{%TAN%(%GRAY%Str: %WHITE%50%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xvg]: %NAME%{%TAN%(%GRAY%Str: %WHITE%50%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xmg]: %NAME%{%TAN%(%GRAY%Str: %WHITE%106%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xtg]: %NAME%{%TAN%(%GRAY%Str: %WHITE%151%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xhg]: %NAME%{%TAN%(%GRAY%Str: %WHITE%185%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xlb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%50%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xvb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%91%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xmb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%118%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID xtb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%163%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI !ETH ID xhb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%208%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID zlb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%50%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID zvb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%50%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !SET !ETH ID zmb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%106%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ztb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%151%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID zhb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%185%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ci2]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID dr6]: %NAME%{%TAN%(%GRAY%Str: %WHITE%86%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID dr7]: %NAME%{%TAN%(%GRAY%Str: %WHITE%95%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID dr8]: %NAME%{%TAN%(%GRAY%Str: %WHITE%104%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID dr9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%113%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID dra]: %NAME%{%TAN%(%GRAY%Str: %WHITE%118%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ba6]: %NAME%{%TAN%(%GRAY%Str: %WHITE%106%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ba7]: %NAME%{%TAN%(%GRAY%Str: %WHITE%129%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ba8]: %NAME%{%TAN%(%GRAY%Str: %WHITE%151%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ba9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%174%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID baa]: %NAME%{%TAN%(%GRAY%Str: %WHITE%196%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID pa6]: %NAME%{%TAN%(%GRAY%Str: %WHITE%86%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID pa7]: %NAME%{%TAN%(%GRAY%Str: %WHITE%109%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID pa8]: %NAME%{%TAN%(%GRAY%Str: %WHITE%124%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID pa9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%142%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID paa]: %NAME%{%TAN%(%GRAY%Str: %WHITE%148%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ne6]: %NAME%{%TAN%(%GRAY%Str: %WHITE%77%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ne7]: %NAME%{%TAN%(%GRAY%Str: %WHITE%82%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ne8]: %NAME%{%TAN%(%GRAY%Str: %WHITE%91%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ne9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%95%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID nea]: %NAME%{%TAN%(%GRAY%Str: %WHITE%106%TAN%)%NL%%NAME%}%CONTINUE%
-
-// Descriptions for Upgraded Item Requirements (ethereal normal armor)
-ItemDisplay[!NMAG !MAG ETH ID cap]: %NAME%{%TAN%(%GRAY%Str: %WHITE%10%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID skp]: %NAME%{%TAN%(%GRAY%Str: %WHITE%33%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID hlm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%49%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID fhl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%72%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID msk]: %NAME%{%TAN%(%GRAY%Str: %WHITE%45%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID bhm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%48%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ghm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%105%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID crn]: %NAME%{%TAN%(%GRAY%Str: %WHITE%93%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID qui]: %NAME%{%TAN%(%GRAY%Str: %WHITE%28%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID lea]: %NAME%{%TAN%(%GRAY%Str: %WHITE%33%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID hla]: %NAME%{%TAN%(%GRAY%Str: %WHITE%40%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID stu]: %NAME%{%TAN%(%GRAY%Str: %WHITE%51%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID rng]: %NAME%{%TAN%(%GRAY%Str: %WHITE%64%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID scl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%76%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !SET ETH ID chn]: %NAME%{%TAN%(%GRAY%Str: %WHITE%82%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID brs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%55%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID spl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%87%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID plt]: %NAME%{%TAN%(%GRAY%Str: %WHITE%108%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI ETH ID fld]: %NAME%{%TAN%(%GRAY%Str: %WHITE%93%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID gth]: %NAME%{%TAN%(%GRAY%Str: %WHITE%115%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ltp]: %NAME%{%TAN%(%GRAY%Str: %WHITE%45%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ful]: %NAME%{%TAN%(%GRAY%Str: %WHITE%130%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID aar]: %NAME%{%TAN%(%GRAY%Str: %WHITE%160%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID buc]: %NAME%{%TAN%(%GRAY%Str: %WHITE%28%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID sml]: %NAME%{%TAN%(%GRAY%Str: %WHITE%43%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID lrg]: %NAME%{%TAN%(%GRAY%Str: %WHITE%61%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID spk]: %NAME%{%TAN%(%GRAY%Str: %WHITE%55%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID kit]: %NAME%{%TAN%(%GRAY%Str: %WHITE%81%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID bsh]: %NAME%{%TAN%(%GRAY%Str: %WHITE%48%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID tow]: %NAME%{%TAN%(%GRAY%Str: %WHITE%123%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID gts]: %NAME%{%TAN%(%GRAY%Str: %WHITE%100%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID lgl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%10%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID vgl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%10%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID mgl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%48%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID tgl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%78%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID hgl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%100%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID lbt]: %NAME%{%TAN%(%GRAY%Str: %WHITE%10%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID vbt]: %NAME%{%TAN%(%GRAY%Str: %WHITE%37%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID mbt]: %NAME%{%TAN%(%GRAY%Str: %WHITE%55%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID tbt]: %NAME%{%TAN%(%GRAY%Str: %WHITE%85%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID hbt]: %NAME%{%TAN%(%GRAY%Str: %WHITE%115%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID lbl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%10%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID vbl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%10%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID mbl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%48%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID tbl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%78%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID hbl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%100%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID (ci0 OR ci1)]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID dr1]: %NAME%{%TAN%(%GRAY%Str: %WHITE%34%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID dr2]: %NAME%{%TAN%(%GRAY%Str: %WHITE%40%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID dr3]: %NAME%{%TAN%(%GRAY%Str: %WHITE%46%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID dr4]: %NAME%{%TAN%(%GRAY%Str: %WHITE%52%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID dr5]: %NAME%{%TAN%(%GRAY%Str: %WHITE%55%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ba1]: %NAME%{%TAN%(%GRAY%Str: %WHITE%48%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ba2]: %NAME%{%TAN%(%GRAY%Str: %WHITE%63%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ba3]: %NAME%{%TAN%(%GRAY%Str: %WHITE%78%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ba4]: %NAME%{%TAN%(%GRAY%Str: %WHITE%93%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ba5]: %NAME%{%TAN%(%GRAY%Str: %WHITE%108%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID pa1]: %NAME%{%TAN%(%GRAY%Str: %WHITE%34%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID pa2]: %NAME%{%TAN%(%GRAY%Str: %WHITE%49%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID pa3]: %NAME%{%TAN%(%GRAY%Str: %WHITE%59%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID pa4]: %NAME%{%TAN%(%GRAY%Str: %WHITE%79%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID pa5]: %NAME%{%TAN%(%GRAY%Str: %WHITE%104%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ne1]: %NAME%{%TAN%(%GRAY%Str: %WHITE%28%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ne2]: %NAME%{%TAN%(%GRAY%Str: %WHITE%31%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ne3]: %NAME%{%TAN%(%GRAY%Str: %WHITE%37%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ne4]: %NAME%{%TAN%(%GRAY%Str: %WHITE%40%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ne5]: %NAME%{%TAN%(%GRAY%Str: %WHITE%48%TAN%)%NL%%NAME%}%CONTINUE%
-
-// Descriptions for Upgraded Item Requirements (ethereal exceptional armor)
-ItemDisplay[!NMAG !MAG ETH ID xap]: %NAME%{%TAN%(%GRAY%Str: %WHITE%40%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xkp]: %NAME%{%TAN%(%GRAY%Str: %WHITE%74%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xlm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%99%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xhl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%132%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xsk]: %NAME%{%TAN%(%GRAY%Str: %WHITE%92%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xh9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%96%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xhm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%182%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xrn]: %NAME%{%TAN%(%GRAY%Str: %WHITE%164%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xui]: %NAME%{%TAN%(%GRAY%Str: %WHITE%67%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xea]: %NAME%{%TAN%(%GRAY%Str: %WHITE%74%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xla]: %NAME%{%TAN%(%GRAY%Str: %WHITE%85%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xtu]: %NAME%{%TAN%(%GRAY%Str: %WHITE%101%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xng]: %NAME%{%TAN%(%GRAY%Str: %WHITE%121%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xcl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%139%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !SET ETH ID xhn]: %NAME%{%TAN%(%GRAY%Str: %WHITE%148%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !SET ETH ID xrs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%108%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xpl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%155%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xlt]: %NAME%{%TAN%(%GRAY%Str: %WHITE%186%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xld]: %NAME%{%TAN%(%GRAY%Str: %WHITE%164%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xth]: %NAME%{%TAN%(%GRAY%Str: %WHITE%198%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xtp]: %NAME%{%TAN%(%GRAY%Str: %WHITE%93%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !SET ETH ID xul]: %NAME%{%TAN%(%GRAY%Str: %WHITE%220%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !SET !UNI ETH ID xar]: %NAME%{%TAN%(%GRAY%Str: %WHITE%222%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xuc]: %NAME%{%TAN%(%GRAY%Str: %WHITE%67%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xml]: %NAME%{%TAN%(%GRAY%Str: %WHITE%90%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xrg]: %NAME%{%TAN%(%GRAY%Str: %WHITE%117%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xpk]: %NAME%{%TAN%(%GRAY%Str: %WHITE%108%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xit]: %NAME%{%TAN%(%GRAY%Str: %WHITE%146%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xsh]: %NAME%{%TAN%(%GRAY%Str: %WHITE%96%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xow]: %NAME%{%TAN%(%GRAY%Str: %WHITE%209%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xts]: %NAME%{%TAN%(%GRAY%Str: %WHITE%175%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xlg]: %NAME%{%TAN%(%GRAY%Str: %WHITE%40%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xvg]: %NAME%{%TAN%(%GRAY%Str: %WHITE%40%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xmg]: %NAME%{%TAN%(%GRAY%Str: %WHITE%96%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xtg]: %NAME%{%TAN%(%GRAY%Str: %WHITE%141%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xhg]: %NAME%{%TAN%(%GRAY%Str: %WHITE%175%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xlb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%40%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xvb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%81%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xmb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%108%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID xtb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%153%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI ETH ID xhb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%198%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID zlb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%40%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID zvb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%40%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !SET ETH ID zmb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%96%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ztb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%141%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID zhb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%175%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ci2]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID dr6]: %NAME%{%TAN%(%GRAY%Str: %WHITE%76%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID dr7]: %NAME%{%TAN%(%GRAY%Str: %WHITE%85%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID dr8]: %NAME%{%TAN%(%GRAY%Str: %WHITE%94%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID dr9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%103%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID dra]: %NAME%{%TAN%(%GRAY%Str: %WHITE%108%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ba6]: %NAME%{%TAN%(%GRAY%Str: %WHITE%96%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ba7]: %NAME%{%TAN%(%GRAY%Str: %WHITE%119%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ba8]: %NAME%{%TAN%(%GRAY%Str: %WHITE%141%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ba9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%164%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID baa]: %NAME%{%TAN%(%GRAY%Str: %WHITE%186%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID pa6]: %NAME%{%TAN%(%GRAY%Str: %WHITE%76%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID pa7]: %NAME%{%TAN%(%GRAY%Str: %WHITE%99%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID pa8]: %NAME%{%TAN%(%GRAY%Str: %WHITE%114%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID pa9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%132%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID paa]: %NAME%{%TAN%(%GRAY%Str: %WHITE%138%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ne6]: %NAME%{%TAN%(%GRAY%Str: %WHITE%67%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ne7]: %NAME%{%TAN%(%GRAY%Str: %WHITE%72%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ne8]: %NAME%{%TAN%(%GRAY%Str: %WHITE%81%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ne9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%85%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID nea]: %NAME%{%TAN%(%GRAY%Str: %WHITE%96%TAN%)%NL%%NAME%}%CONTINUE%
-
-// Descriptions for Upgraded Item Requirements (non-eth normal weapons)
-ItemDisplay[!NMAG !MAG !ETH ID hax]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25, %GRAY%Dex: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID axe]: %NAME%{%TAN%(%GRAY%Str: %WHITE%68%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 2ax]: %NAME%{%TAN%(%GRAY%Str: %WHITE%85%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID mpi]: %NAME%{%TAN%(%GRAY%Str: %WHITE%94, %GRAY%Dex: %WHITE%70%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID wax]: %NAME%{%TAN%(%GRAY%Str: %WHITE%121%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID lax]: %NAME%{%TAN%(%GRAY%Str: %WHITE%73%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID bax]: %NAME%{%TAN%(%GRAY%Str: %WHITE%92%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID btx]: %NAME%{%TAN%(%GRAY%Str: %WHITE%101%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID gax]: %NAME%{%TAN%(%GRAY%Str: %WHITE%115, %GRAY%Dex: %WHITE%79%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI !ETH ID gix]: %NAME%{%TAN%(%GRAY%Str: %WHITE%125%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID clb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID spc]: %NAME%{%TAN%(%GRAY%Str: %WHITE%30%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID mac]: %NAME%{%TAN%(%GRAY%Str: %WHITE%61%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID mst]: %NAME%{%TAN%(%GRAY%Str: %WHITE%74%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID fla]: %NAME%{%TAN%(%GRAY%Str: %WHITE%82, %GRAY%Dex: %WHITE%73%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID whm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%100%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID mau]: %NAME%{%TAN%(%GRAY%Str: %WHITE%124%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI !ETH ID gma]: %NAME%{%TAN%(%GRAY%Str: %WHITE%169%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ssd]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID scm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25, %GRAY%Dex: %WHITE%52%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID sbr]: %NAME%{%TAN%(%GRAY%Str: %WHITE%58, %GRAY%Dex: %WHITE%58%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID flc]: %NAME%{%TAN%(%GRAY%Str: %WHITE%70, %GRAY%Dex: %WHITE%42%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID crs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%85, %GRAY%Dex: %WHITE%60%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID bsd]: %NAME%{%TAN%(%GRAY%Str: %WHITE%92, %GRAY%Dex: %WHITE%43%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID lsd]: %NAME%{%TAN%(%GRAY%Str: %WHITE%103, %GRAY%Dex: %WHITE%79%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID wsd]: %NAME%{%TAN%(%GRAY%Str: %WHITE%127, %GRAY%Dex: %WHITE%88%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 2hs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%73, %GRAY%Dex: %WHITE%61%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID clm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%91, %GRAY%Dex: %WHITE%20%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID gis]: %NAME%{%TAN%(%GRAY%Str: %WHITE%104, %GRAY%Dex: %WHITE%71%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID bsw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%113, %GRAY%Dex: %WHITE%20%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID flb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%125, %GRAY%Dex: %WHITE%94%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID gsd]: %NAME%{%TAN%(%GRAY%Str: %WHITE%170, %GRAY%Dex: %WHITE%110%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID dgr]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID dir]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25, %GRAY%Dex: %WHITE%58%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID kri]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25, %GRAY%Dex: %WHITE%88%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID bld]: %NAME%{%TAN%(%GRAY%Str: %WHITE%47, %GRAY%Dex: %WHITE%97%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID tkf]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25, %GRAY%Dex: %WHITE%52%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID tax]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25, %GRAY%Dex: %WHITE%80%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID bkf]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25, %GRAY%Dex: %WHITE%97%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID bal]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25, %GRAY%Dex: %WHITE%106%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID jav]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25, %GRAY%Dex: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID pil]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25, %GRAY%Dex: %WHITE%88%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ssp]: %NAME%{%TAN%(%GRAY%Str: %WHITE%80, %GRAY%Dex: %WHITE%80%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID glv]: %NAME%{%TAN%(%GRAY%Str: %WHITE%98, %GRAY%Dex: %WHITE%73%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID tsp]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25, %GRAY%Dex: %WHITE%118%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID spr]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25, %GRAY%Dex: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID tri]: %NAME%{%TAN%(%GRAY%Str: %WHITE%77, %GRAY%Dex: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID brn]: %NAME%{%TAN%(%GRAY%Str: %WHITE%80, %GRAY%Dex: %WHITE%95%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID spt]: %NAME%{%TAN%(%GRAY%Str: %WHITE%101%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID pik]: %NAME%{%TAN%(%GRAY%Str: %WHITE%110, %GRAY%Dex: %WHITE%88%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID bar]: %NAME%{%TAN%(%GRAY%Str: %WHITE%80%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID vou]: %NAME%{%TAN%(%GRAY%Str: %WHITE%95%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID scy]: %NAME%{%TAN%(%GRAY%Str: %WHITE%82, %GRAY%Dex: %WHITE%82%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID pax]: %NAME%{%TAN%(%GRAY%Str: %WHITE%113, %GRAY%Dex: %WHITE%67%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID hal]: %NAME%{%TAN%(%GRAY%Str: %WHITE%133, %GRAY%Dex: %WHITE%91%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID wsc]: %NAME%{%TAN%(%GRAY%Str: %WHITE%140, %GRAY%Dex: %WHITE%140%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID sbw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25, %GRAY%Dex: %WHITE%43%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID hbw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25, %GRAY%Dex: %WHITE%62%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID lbw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%53, %GRAY%Dex: %WHITE%49%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID cbw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%58, %GRAY%Dex: %WHITE%73%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID sbb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%65, %GRAY%Dex: %WHITE%80%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID lbb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%80, %GRAY%Dex: %WHITE%95%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID swb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%73, %GRAY%Dex: %WHITE%103%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID lwb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%95, %GRAY%Dex: %WHITE%118%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID lxb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%52, %GRAY%Dex: %WHITE%61%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID mxb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%80, %GRAY%Dex: %WHITE%70%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID hxb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%110, %GRAY%Dex: %WHITE%80%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID rxb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%80, %GRAY%Dex: %WHITE%95%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID sst]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID lst]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID cst]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID bst]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID wst]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID wnd]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ywn]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID bwn]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID gwn]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID scp]: %NAME%{%TAN%(%GRAY%Str: %WHITE%58%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID gsc]: %NAME%{%TAN%(%GRAY%Str: %WHITE%76%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID wsp]: %NAME%{%TAN%(%GRAY%Str: %WHITE%103%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ktr]: %NAME%{%TAN%(%GRAY%Str: %WHITE%57, %GRAY%Dex: %WHITE%57%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID wrb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%66, %GRAY%Dex: %WHITE%66%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID axf]: %NAME%{%TAN%(%GRAY%Str: %WHITE%69, %GRAY%Dex: %WHITE%69%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ces]: %NAME%{%TAN%(%GRAY%Str: %WHITE%73, %GRAY%Dex: %WHITE%73%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID clw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%76, %GRAY%Dex: %WHITE%76%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID btl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%79, %GRAY%Dex: %WHITE%79%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID skr]: %NAME%{%TAN%(%GRAY%Str: %WHITE%82, %GRAY%Dex: %WHITE%82%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ob1]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ob2]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ob3]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ob4]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ob5]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID am1]: %NAME%{%TAN%(%GRAY%Str: %WHITE%56, %GRAY%Dex: %WHITE%77%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID am2]: %NAME%{%TAN%(%GRAY%Str: %WHITE%73, %GRAY%Dex: %WHITE%110%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID am3]: %NAME%{%TAN%(%GRAY%Str: %WHITE%101, %GRAY%Dex: %WHITE%80%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID am4]: %NAME%{%TAN%(%GRAY%Str: %WHITE%115, %GRAY%Dex: %WHITE%98%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID am5]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25, %GRAY%Dex: %WHITE%109%TAN%)%NL%%NAME%}%CONTINUE%
-
-// Descriptions for Upgraded Item Requirements (non-eth exceptional weapons)
-ItemDisplay[!NMAG !MAG !ETH ID 9ha]: %NAME%{%TAN%(%GRAY%Str: %WHITE%125, %GRAY%Dex: %WHITE%67%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9ax]: %NAME%{%TAN%(%GRAY%Str: %WHITE%115, %GRAY%Dex: %WHITE%83%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 92a]: %NAME%{%TAN%(%GRAY%Str: %WHITE%145, %GRAY%Dex: %WHITE%45%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9mp]: %NAME%{%TAN%(%GRAY%Str: %WHITE%133, %GRAY%Dex: %WHITE%54%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9wa]: %NAME%{%TAN%(%GRAY%Str: %WHITE%138, %GRAY%Dex: %WHITE%59%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9la]: %NAME%{%TAN%(%GRAY%Str: %WHITE%196%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI !ETH ID 9ba]: %NAME%{%TAN%(%GRAY%Str: %WHITE%166, %GRAY%Dex: %WHITE%65%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9bt]: %NAME%{%TAN%(%GRAY%Str: %WHITE%189, %GRAY%Dex: %WHITE%33%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9ga]: %NAME%{%TAN%(%GRAY%Str: %WHITE%167, %GRAY%Dex: %WHITE%59%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9gi]: %NAME%{%TAN%(%GRAY%Str: %WHITE%164, %GRAY%Dex: %WHITE%55%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9cl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%88, %GRAY%Dex: %WHITE%43%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9sp]: %NAME%{%TAN%(%GRAY%Str: %WHITE%133%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9ma]: %NAME%{%TAN%(%GRAY%Str: %WHITE%145, %GRAY%Dex: %WHITE%46%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9mt]: %NAME%{%TAN%(%GRAY%Str: %WHITE%153, %GRAY%Dex: %WHITE%44%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9fl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%125, %GRAY%Dex: %WHITE%77%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9wh]: %NAME%{%TAN%(%GRAY%Str: %WHITE%189%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9m9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%225%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI !ETH ID 9gm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%253%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9ss]: %NAME%{%TAN%(%GRAY%Str: %WHITE%150, %GRAY%Dex: %WHITE%88%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9sm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%138, %GRAY%Dex: %WHITE%95%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9sb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%109, %GRAY%Dex: %WHITE%122%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9fc]: %NAME%{%TAN%(%GRAY%Str: %WHITE%142, %GRAY%Dex: %WHITE%105%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9cr]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25, %GRAY%Dex: %WHITE%136%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9bs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%142, %GRAY%Dex: %WHITE%112%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9ls]: %NAME%{%TAN%(%GRAY%Str: %WHITE%99, %GRAY%Dex: %WHITE%109%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9wd]: %NAME%{%TAN%(%GRAY%Str: %WHITE%147, %GRAY%Dex: %WHITE%124%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 92h]: %NAME%{%TAN%(%GRAY%Str: %WHITE%175, %GRAY%Dex: %WHITE%100%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI !ETH ID 9cm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%171, %GRAY%Dex: %WHITE%104%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9gs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%185, %GRAY%Dex: %WHITE%87%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9b9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%163, %GRAY%Dex: %WHITE%103%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9fb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%182, %GRAY%Dex: %WHITE%95%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI !ETH ID 9gd]: %NAME%{%TAN%(%GRAY%Str: %WHITE%189, %GRAY%Dex: %WHITE%110%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9dg]: %NAME%{%TAN%(%GRAY%Str: %WHITE%38, %GRAY%Dex: %WHITE%75%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9di]: %NAME%{%TAN%(%GRAY%Str: %WHITE%55, %GRAY%Dex: %WHITE%98%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9kr]: %NAME%{%TAN%(%GRAY%Str: %WHITE%42, %GRAY%Dex: %WHITE%86%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9bl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%65, %GRAY%Dex: %WHITE%67%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9tk]: %NAME%{%TAN%(%GRAY%Str: %WHITE%48, %GRAY%Dex: %WHITE%141%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9ta]: %NAME%{%TAN%(%GRAY%Str: %WHITE%88, %GRAY%Dex: %WHITE%108%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9bk]: %NAME%{%TAN%(%GRAY%Str: %WHITE%45, %GRAY%Dex: %WHITE%142%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9b8]: %NAME%{%TAN%(%GRAY%Str: %WHITE%96, %GRAY%Dex: %WHITE%122%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9ja]: %NAME%{%TAN%(%GRAY%Str: %WHITE%98, %GRAY%Dex: %WHITE%123%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9pi]: %NAME%{%TAN%(%GRAY%Str: %WHITE%118, %GRAY%Dex: %WHITE%112%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9s9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%127, %GRAY%Dex: %WHITE%95%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9gl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%89, %GRAY%Dex: %WHITE%137%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9ts]: %NAME%{%TAN%(%GRAY%Str: %WHITE%76, %GRAY%Dex: %WHITE%145%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9sr]: %NAME%{%TAN%(%GRAY%Str: %WHITE%155, %GRAY%Dex: %WHITE%120%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9tr]: %NAME%{%TAN%(%GRAY%Str: %WHITE%168, %GRAY%Dex: %WHITE%97%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI !ETH ID 9br]: %NAME%{%TAN%(%GRAY%Str: %WHITE%132, %GRAY%Dex: %WHITE%134%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9st]: %NAME%{%TAN%(%GRAY%Str: %WHITE%122, %GRAY%Dex: %WHITE%163%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9p9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%165, %GRAY%Dex: %WHITE%106%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9b7]: %NAME%{%TAN%(%GRAY%Str: %WHITE%195, %GRAY%Dex: %WHITE%75%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI !ETH ID 9vo]: %NAME%{%TAN%(%GRAY%Str: %WHITE%210, %GRAY%Dex: %WHITE%55%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9s8]: %NAME%{%TAN%(%GRAY%Str: %WHITE%152, %GRAY%Dex: %WHITE%118%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9pa]: %NAME%{%TAN%(%GRAY%Str: %WHITE%165, %GRAY%Dex: %WHITE%103%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9h9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%179, %GRAY%Dex: %WHITE%99%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI !ETH ID 9wc]: %NAME%{%TAN%(%GRAY%Str: %WHITE%188, %GRAY%Dex: %WHITE%140%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 8sb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%64, %GRAY%Dex: %WHITE%143%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 8hb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%76, %GRAY%Dex: %WHITE%119%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 8lb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%52, %GRAY%Dex: %WHITE%188%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 8cb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%121, %GRAY%Dex: %WHITE%107%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 8s8]: %NAME%{%TAN%(%GRAY%Str: %WHITE%89, %GRAY%Dex: %WHITE%132%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 8l8]: %NAME%{%TAN%(%GRAY%Str: %WHITE%97, %GRAY%Dex: %WHITE%121%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 8sw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%72, %GRAY%Dex: %WHITE%146%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 8lw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%134, %GRAY%Dex: %WHITE%167%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 8lx]: %NAME%{%TAN%(%GRAY%Str: %WHITE%83, %GRAY%Dex: %WHITE%155%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI !ETH ID 8mx]: %NAME%{%TAN%(%GRAY%Str: %WHITE%117, %GRAY%Dex: %WHITE%105%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 8hx]: %NAME%{%TAN%(%GRAY%Str: %WHITE%163, %GRAY%Dex: %WHITE%77%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 8rx]: %NAME%{%TAN%(%GRAY%Str: %WHITE%141, %GRAY%Dex: %WHITE%98%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 8ss]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 8ls]: %NAME%{%TAN%(%GRAY%Str: %WHITE%63, %GRAY%Dex: %WHITE%35%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 8cs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%44, %GRAY%Dex: %WHITE%37%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 8bs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%52, %GRAY%Dex: %WHITE%27%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 8ws]: %NAME%{%TAN%(%GRAY%Str: %WHITE%34%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9wn]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9yw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9bw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9gw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9sc]: %NAME%{%TAN%(%GRAY%Str: %WHITE%125, %GRAY%Dex: %WHITE%65%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9qs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%108, %GRAY%Dex: %WHITE%69%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9ws]: %NAME%{%TAN%(%GRAY%Str: %WHITE%97, %GRAY%Dex: %WHITE%70%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9ar]: %NAME%{%TAN%(%GRAY%Str: %WHITE%99, %GRAY%Dex: %WHITE%99%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9wb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%105, %GRAY%Dex: %WHITE%105%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9xf]: %NAME%{%TAN%(%GRAY%Str: %WHITE%108, %GRAY%Dex: %WHITE%108%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9cs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%110, %GRAY%Dex: %WHITE%110%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9lw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%113, %GRAY%Dex: %WHITE%113%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9tw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%115, %GRAY%Dex: %WHITE%115%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID 9qr]: %NAME%{%TAN%(%GRAY%Str: %WHITE%118, %GRAY%Dex: %WHITE%118%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ob6]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ob7]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ob8]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ob9]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID oba]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID am6]: %NAME%{%TAN%(%GRAY%Str: %WHITE%87, %GRAY%Dex: %WHITE%187%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID am7]: %NAME%{%TAN%(%GRAY%Str: %WHITE%108, %GRAY%Dex: %WHITE%152%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID am8]: %NAME%{%TAN%(%GRAY%Str: %WHITE%114, %GRAY%Dex: %WHITE%142%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID am9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%132, %GRAY%Dex: %WHITE%149%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !ETH ID ama]: %NAME%{%TAN%(%GRAY%Str: %WHITE%107, %GRAY%Dex: %WHITE%151%TAN%)%NL%%NAME%}%CONTINUE%
-
-// Descriptions for Upgraded Item Requirements (ethereal normal weapons)
-ItemDisplay[!NMAG !MAG ETH ID hax]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15, %GRAY%Dex: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID axe]: %NAME%{%TAN%(%GRAY%Str: %WHITE%58%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 2ax]: %NAME%{%TAN%(%GRAY%Str: %WHITE%75%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID mpi]: %NAME%{%TAN%(%GRAY%Str: %WHITE%84, %GRAY%Dex: %WHITE%60%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID wax]: %NAME%{%TAN%(%GRAY%Str: %WHITE%111%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID lax]: %NAME%{%TAN%(%GRAY%Str: %WHITE%63%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID bax]: %NAME%{%TAN%(%GRAY%Str: %WHITE%82%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID btx]: %NAME%{%TAN%(%GRAY%Str: %WHITE%91%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID gax]: %NAME%{%TAN%(%GRAY%Str: %WHITE%105, %GRAY%Dex: %WHITE%69%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI ETH ID gix]: %NAME%{%TAN%(%GRAY%Str: %WHITE%115%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID clb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID spc]: %NAME%{%TAN%(%GRAY%Str: %WHITE%20%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID mac]: %NAME%{%TAN%(%GRAY%Str: %WHITE%51%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID mst]: %NAME%{%TAN%(%GRAY%Str: %WHITE%64%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID fla]: %NAME%{%TAN%(%GRAY%Str: %WHITE%72, %GRAY%Dex: %WHITE%63%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID whm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%90%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID mau]: %NAME%{%TAN%(%GRAY%Str: %WHITE%114%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI ETH ID gma]: %NAME%{%TAN%(%GRAY%Str: %WHITE%159%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ssd]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID scm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15, %GRAY%Dex: %WHITE%42%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID sbr]: %NAME%{%TAN%(%GRAY%Str: %WHITE%48, %GRAY%Dex: %WHITE%48%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID flc]: %NAME%{%TAN%(%GRAY%Str: %WHITE%60, %GRAY%Dex: %WHITE%32%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID crs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%75, %GRAY%Dex: %WHITE%50%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID bsd]: %NAME%{%TAN%(%GRAY%Str: %WHITE%82, %GRAY%Dex: %WHITE%33%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID lsd]: %NAME%{%TAN%(%GRAY%Str: %WHITE%93, %GRAY%Dex: %WHITE%69%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID wsd]: %NAME%{%TAN%(%GRAY%Str: %WHITE%117, %GRAY%Dex: %WHITE%78%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 2hs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%63, %GRAY%Dex: %WHITE%51%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID clm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%81, %GRAY%Dex: %WHITE%10%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID gis]: %NAME%{%TAN%(%GRAY%Str: %WHITE%94, %GRAY%Dex: %WHITE%61%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID bsw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%103, %GRAY%Dex: %WHITE%10%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID flb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%115, %GRAY%Dex: %WHITE%84%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID gsd]: %NAME%{%TAN%(%GRAY%Str: %WHITE%160, %GRAY%Dex: %WHITE%100%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID dgr]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID dir]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15, %GRAY%Dex: %WHITE%48%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID kri]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15, %GRAY%Dex: %WHITE%78%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID bld]: %NAME%{%TAN%(%GRAY%Str: %WHITE%37, %GRAY%Dex: %WHITE%87%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID tkf]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15, %GRAY%Dex: %WHITE%42%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID tax]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15, %GRAY%Dex: %WHITE%70%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID bkf]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15, %GRAY%Dex: %WHITE%87%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID bal]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15, %GRAY%Dex: %WHITE%96%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID jav]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15, %GRAY%Dex: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID pil]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15, %GRAY%Dex: %WHITE%78%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ssp]: %NAME%{%TAN%(%GRAY%Str: %WHITE%70, %GRAY%Dex: %WHITE%70%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID glv]: %NAME%{%TAN%(%GRAY%Str: %WHITE%88, %GRAY%Dex: %WHITE%63%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID tsp]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15, %GRAY%Dex: %WHITE%108%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID spr]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15, %GRAY%Dex: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID tri]: %NAME%{%TAN%(%GRAY%Str: %WHITE%67, %GRAY%Dex: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID brn]: %NAME%{%TAN%(%GRAY%Str: %WHITE%70, %GRAY%Dex: %WHITE%85%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID spt]: %NAME%{%TAN%(%GRAY%Str: %WHITE%91%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID pik]: %NAME%{%TAN%(%GRAY%Str: %WHITE%100, %GRAY%Dex: %WHITE%78%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID bar]: %NAME%{%TAN%(%GRAY%Str: %WHITE%70%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID vou]: %NAME%{%TAN%(%GRAY%Str: %WHITE%85%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID scy]: %NAME%{%TAN%(%GRAY%Str: %WHITE%72, %GRAY%Dex: %WHITE%72%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID pax]: %NAME%{%TAN%(%GRAY%Str: %WHITE%103, %GRAY%Dex: %WHITE%57%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID hal]: %NAME%{%TAN%(%GRAY%Str: %WHITE%123, %GRAY%Dex: %WHITE%81%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID wsc]: %NAME%{%TAN%(%GRAY%Str: %WHITE%130, %GRAY%Dex: %WHITE%130%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID sbw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15, %GRAY%Dex: %WHITE%33%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID hbw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15, %GRAY%Dex: %WHITE%52%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID lbw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%43, %GRAY%Dex: %WHITE%39%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID cbw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%48, %GRAY%Dex: %WHITE%63%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID sbb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%55, %GRAY%Dex: %WHITE%70%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID lbb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%70, %GRAY%Dex: %WHITE%85%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID swb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%63, %GRAY%Dex: %WHITE%93%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID lwb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%85, %GRAY%Dex: %WHITE%108%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID lxb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%42, %GRAY%Dex: %WHITE%51%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID mxb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%70, %GRAY%Dex: %WHITE%60%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID hxb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%100, %GRAY%Dex: %WHITE%70%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID rxb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%70, %GRAY%Dex: %WHITE%85%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID sst]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID lst]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID cst]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID bst]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID wst]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID wnd]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ywn]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID bwn]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID gwn]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID scp]: %NAME%{%TAN%(%GRAY%Str: %WHITE%48%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID gsc]: %NAME%{%TAN%(%GRAY%Str: %WHITE%66%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID wsp]: %NAME%{%TAN%(%GRAY%Str: %WHITE%93%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ktr]: %NAME%{%TAN%(%GRAY%Str: %WHITE%47, %GRAY%Dex: %WHITE%47%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID wrb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%56, %GRAY%Dex: %WHITE%56%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID axf]: %NAME%{%TAN%(%GRAY%Str: %WHITE%59, %GRAY%Dex: %WHITE%59%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ces]: %NAME%{%TAN%(%GRAY%Str: %WHITE%63, %GRAY%Dex: %WHITE%63%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID clw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%66, %GRAY%Dex: %WHITE%66%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID btl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%69, %GRAY%Dex: %WHITE%69%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID skr]: %NAME%{%TAN%(%GRAY%Str: %WHITE%72, %GRAY%Dex: %WHITE%72%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ob1]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ob2]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ob3]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ob4]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ob5]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID am1]: %NAME%{%TAN%(%GRAY%Str: %WHITE%46, %GRAY%Dex: %WHITE%67%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID am2]: %NAME%{%TAN%(%GRAY%Str: %WHITE%63, %GRAY%Dex: %WHITE%100%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID am3]: %NAME%{%TAN%(%GRAY%Str: %WHITE%91, %GRAY%Dex: %WHITE%70%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID am4]: %NAME%{%TAN%(%GRAY%Str: %WHITE%105, %GRAY%Dex: %WHITE%88%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID am5]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15, %GRAY%Dex: %WHITE%99%TAN%)%NL%%NAME%}%CONTINUE%
-
-// Descriptions for Upgraded Item Requirements (ethereal exceptional weapons)
-ItemDisplay[!NMAG !MAG ETH ID 9ha]: %NAME%{%TAN%(%GRAY%Str: %WHITE%115, %GRAY%Dex: %WHITE%57%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9ax]: %NAME%{%TAN%(%GRAY%Str: %WHITE%105, %GRAY%Dex: %WHITE%73%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 92a]: %NAME%{%TAN%(%GRAY%Str: %WHITE%135, %GRAY%Dex: %WHITE%35%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9mp]: %NAME%{%TAN%(%GRAY%Str: %WHITE%123, %GRAY%Dex: %WHITE%44%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9wa]: %NAME%{%TAN%(%GRAY%Str: %WHITE%128, %GRAY%Dex: %WHITE%49%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9la]: %NAME%{%TAN%(%GRAY%Str: %WHITE%186%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI ETH ID 9ba]: %NAME%{%TAN%(%GRAY%Str: %WHITE%156, %GRAY%Dex: %WHITE%55%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9bt]: %NAME%{%TAN%(%GRAY%Str: %WHITE%179, %GRAY%Dex: %WHITE%23%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9ga]: %NAME%{%TAN%(%GRAY%Str: %WHITE%157, %GRAY%Dex: %WHITE%49%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9gi]: %NAME%{%TAN%(%GRAY%Str: %WHITE%154, %GRAY%Dex: %WHITE%45%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9cl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%78, %GRAY%Dex: %WHITE%33%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9sp]: %NAME%{%TAN%(%GRAY%Str: %WHITE%123%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9ma]: %NAME%{%TAN%(%GRAY%Str: %WHITE%135, %GRAY%Dex: %WHITE%36%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9mt]: %NAME%{%TAN%(%GRAY%Str: %WHITE%143, %GRAY%Dex: %WHITE%34%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9fl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%115, %GRAY%Dex: %WHITE%67%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9wh]: %NAME%{%TAN%(%GRAY%Str: %WHITE%179%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9m9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%215%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI ETH ID 9gm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%243%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9ss]: %NAME%{%TAN%(%GRAY%Str: %WHITE%140, %GRAY%Dex: %WHITE%78%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9sm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%128, %GRAY%Dex: %WHITE%85%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9sb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%99, %GRAY%Dex: %WHITE%112%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9fc]: %NAME%{%TAN%(%GRAY%Str: %WHITE%132, %GRAY%Dex: %WHITE%95%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9cr]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15, %GRAY%Dex: %WHITE%126%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9bs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%132, %GRAY%Dex: %WHITE%102%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9ls]: %NAME%{%TAN%(%GRAY%Str: %WHITE%89, %GRAY%Dex: %WHITE%99%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9wd]: %NAME%{%TAN%(%GRAY%Str: %WHITE%137, %GRAY%Dex: %WHITE%114%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 92h]: %NAME%{%TAN%(%GRAY%Str: %WHITE%165, %GRAY%Dex: %WHITE%90%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI ETH ID 9cm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%161, %GRAY%Dex: %WHITE%94%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9gs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%175, %GRAY%Dex: %WHITE%77%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9b9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%153, %GRAY%Dex: %WHITE%93%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9fb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%172, %GRAY%Dex: %WHITE%85%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI ETH ID 9gd]: %NAME%{%TAN%(%GRAY%Str: %WHITE%179, %GRAY%Dex: %WHITE%100%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9dg]: %NAME%{%TAN%(%GRAY%Str: %WHITE%28, %GRAY%Dex: %WHITE%65%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9di]: %NAME%{%TAN%(%GRAY%Str: %WHITE%45, %GRAY%Dex: %WHITE%88%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9kr]: %NAME%{%TAN%(%GRAY%Str: %WHITE%32, %GRAY%Dex: %WHITE%76%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9bl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%55, %GRAY%Dex: %WHITE%57%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9tk]: %NAME%{%TAN%(%GRAY%Str: %WHITE%38, %GRAY%Dex: %WHITE%131%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9ta]: %NAME%{%TAN%(%GRAY%Str: %WHITE%78, %GRAY%Dex: %WHITE%98%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9bk]: %NAME%{%TAN%(%GRAY%Str: %WHITE%35, %GRAY%Dex: %WHITE%132%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9b8]: %NAME%{%TAN%(%GRAY%Str: %WHITE%86, %GRAY%Dex: %WHITE%112%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9ja]: %NAME%{%TAN%(%GRAY%Str: %WHITE%88, %GRAY%Dex: %WHITE%113%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9pi]: %NAME%{%TAN%(%GRAY%Str: %WHITE%108, %GRAY%Dex: %WHITE%102%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9s9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%117, %GRAY%Dex: %WHITE%85%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9gl]: %NAME%{%TAN%(%GRAY%Str: %WHITE%79, %GRAY%Dex: %WHITE%127%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9ts]: %NAME%{%TAN%(%GRAY%Str: %WHITE%66, %GRAY%Dex: %WHITE%135%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9sr]: %NAME%{%TAN%(%GRAY%Str: %WHITE%145, %GRAY%Dex: %WHITE%110%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9tr]: %NAME%{%TAN%(%GRAY%Str: %WHITE%158, %GRAY%Dex: %WHITE%87%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI ETH ID 9br]: %NAME%{%TAN%(%GRAY%Str: %WHITE%122, %GRAY%Dex: %WHITE%124%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9st]: %NAME%{%TAN%(%GRAY%Str: %WHITE%112, %GRAY%Dex: %WHITE%153%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9p9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%155, %GRAY%Dex: %WHITE%96%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9b7]: %NAME%{%TAN%(%GRAY%Str: %WHITE%185, %GRAY%Dex: %WHITE%65%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI ETH ID 9vo]: %NAME%{%TAN%(%GRAY%Str: %WHITE%200, %GRAY%Dex: %WHITE%45%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9s8]: %NAME%{%TAN%(%GRAY%Str: %WHITE%142, %GRAY%Dex: %WHITE%108%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9pa]: %NAME%{%TAN%(%GRAY%Str: %WHITE%155, %GRAY%Dex: %WHITE%93%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9h9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%169, %GRAY%Dex: %WHITE%89%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI ETH ID 9wc]: %NAME%{%TAN%(%GRAY%Str: %WHITE%178, %GRAY%Dex: %WHITE%130%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 8sb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%54, %GRAY%Dex: %WHITE%133%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 8hb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%66, %GRAY%Dex: %WHITE%109%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 8lb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%42, %GRAY%Dex: %WHITE%178%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 8cb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%111, %GRAY%Dex: %WHITE%97%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 8s8]: %NAME%{%TAN%(%GRAY%Str: %WHITE%79, %GRAY%Dex: %WHITE%122%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 8l8]: %NAME%{%TAN%(%GRAY%Str: %WHITE%87, %GRAY%Dex: %WHITE%111%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 8sw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%62, %GRAY%Dex: %WHITE%136%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 8lw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%124, %GRAY%Dex: %WHITE%157%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 8lx]: %NAME%{%TAN%(%GRAY%Str: %WHITE%73, %GRAY%Dex: %WHITE%145%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG !UNI ETH ID 8mx]: %NAME%{%TAN%(%GRAY%Str: %WHITE%107, %GRAY%Dex: %WHITE%95%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 8hx]: %NAME%{%TAN%(%GRAY%Str: %WHITE%153, %GRAY%Dex: %WHITE%67%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 8rx]: %NAME%{%TAN%(%GRAY%Str: %WHITE%131, %GRAY%Dex: %WHITE%88%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 8ss]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 8ls]: %NAME%{%TAN%(%GRAY%Str: %WHITE%53, %GRAY%Dex: %WHITE%25%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 8cs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%34, %GRAY%Dex: %WHITE%27%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 8bs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%42, %GRAY%Dex: %WHITE%17%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 8ws]: %NAME%{%TAN%(%GRAY%Str: %WHITE%24%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9wn]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9yw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9bw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9gw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%15%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9sc]: %NAME%{%TAN%(%GRAY%Str: %WHITE%115, %GRAY%Dex: %WHITE%55%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9qs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%98, %GRAY%Dex: %WHITE%59%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9ws]: %NAME%{%TAN%(%GRAY%Str: %WHITE%87, %GRAY%Dex: %WHITE%60%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9ar]: %NAME%{%TAN%(%GRAY%Str: %WHITE%89, %GRAY%Dex: %WHITE%89%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9wb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%95, %GRAY%Dex: %WHITE%95%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9xf]: %NAME%{%TAN%(%GRAY%Str: %WHITE%98, %GRAY%Dex: %WHITE%98%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9cs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%100, %GRAY%Dex: %WHITE%100%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9lw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%103, %GRAY%Dex: %WHITE%103%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9tw]: %NAME%{%TAN%(%GRAY%Str: %WHITE%105, %GRAY%Dex: %WHITE%105%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID 9qr]: %NAME%{%TAN%(%GRAY%Str: %WHITE%108, %GRAY%Dex: %WHITE%108%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ob6]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ob7]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ob8]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ob9]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID oba]: %NAME%{%TAN%(%GRAY%Str%WHITE%/%GRAY%Dex: %WHITE%None%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID am6]: %NAME%{%TAN%(%GRAY%Str: %WHITE%77, %GRAY%Dex: %WHITE%177%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID am7]: %NAME%{%TAN%(%GRAY%Str: %WHITE%98, %GRAY%Dex: %WHITE%142%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID am8]: %NAME%{%TAN%(%GRAY%Str: %WHITE%104, %GRAY%Dex: %WHITE%132%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID am9]: %NAME%{%TAN%(%GRAY%Str: %WHITE%122, %GRAY%Dex: %WHITE%139%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ETH ID ama]: %NAME%{%TAN%(%GRAY%Str: %WHITE%97, %GRAY%Dex: %WHITE%141%TAN%)%NL%%NAME%}%CONTINUE%
-
-// Descriptions for Upgraded Item Requirements (unique/set items with altered requirements)
-ItemDisplay[SET ID STAT91=-50 chn]: %NAME%{%TAN%(%GRAY%Str: %WHITE%46%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[SET ID STAT91=-50 xhn]: %NAME%{%TAN%(%GRAY%Str: %WHITE%79%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[SET ID STAT91=-20 xrs]: %NAME%{%TAN%(%GRAY%Str: %WHITE%95%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[SET ID STAT91=-20 zmb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%85%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[SET ID STAT91=-40 xul]: %NAME%{%TAN%(%GRAY%Str: %WHITE%138%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[SET ID STAT91=-40 xar]: %NAME%{%TAN%(%GRAY%Str: %WHITE%140%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI !ETH ID STAT91=-10 fld]: %NAME%{%TAN%(%GRAY%Str: %WHITE%93%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI ETH ID STAT91=-10 fld]: %NAME%{%TAN%(%GRAY%Str: %WHITE%83%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI !ETH ID STAT91=-10 xld]: %NAME%{%TAN%(%GRAY%Str: %WHITE%157%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI ETH ID STAT91=-10 xld]: %NAME%{%TAN%(%GRAY%Str: %WHITE%147%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI !ETH ID STAT91=-15 xar]: %NAME%{%TAN%(%GRAY%Str: %WHITE%198%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI ETH ID STAT91=-15 xar]: %NAME%{%TAN%(%GRAY%Str: %WHITE%188%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI !ETH ID STAT91=-25 xhb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%156%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI ETH ID STAT91=-25 xhb]: %NAME%{%TAN%(%GRAY%Str: %WHITE%146%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI !ETH ID STAT91=20 gix]: %NAME%{%TAN%(%GRAY%Str: %WHITE%150%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI ETH ID STAT91=20 gix]: %NAME%{%TAN%(%GRAY%Str: %WHITE%140%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI !ETH ID STAT91=20 9gi]: %NAME%{%TAN%(%GRAY%Str: %WHITE%196, %GRAY%Dex: %WHITE%66%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI ETH ID STAT91=20 9gi]: %NAME%{%TAN%(%GRAY%Str: %WHITE%186, %GRAY%Dex: %WHITE%56%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI !ETH ID STAT91=-60 9ba]: %NAME%{%TAN%(%GRAY%Str: %WHITE%67, %GRAY%Dex: %WHITE%26%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI ETH ID STAT91=-60 9ba]: %NAME%{%TAN%(%GRAY%Str: %WHITE%57, %GRAY%Dex: %WHITE%16%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI !ETH ID STAT91=-50 gma]: %NAME%{%TAN%(%GRAY%Str: %WHITE%85%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI ETH ID STAT91=-50 gma]: %NAME%{%TAN%(%GRAY%Str: %WHITE%75%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI !ETH ID STAT91=-50 9gm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%127%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI ETH ID STAT91=-50 9gm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%117%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI !ETH ID STAT91=-30 9cm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%120, %GRAY%Dex: %WHITE%73%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI ETH ID STAT91=-30 9cm]: %NAME%{%TAN%(%GRAY%Str: %WHITE%110, %GRAY%Dex: %WHITE%63%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI !ETH ID STAT91=-50 9gd]: %NAME%{%TAN%(%GRAY%Str: %WHITE%95, %GRAY%Dex: %WHITE%55%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI ETH ID STAT91=-50 9gd]: %NAME%{%TAN%(%GRAY%Str: %WHITE%85, %GRAY%Dex: %WHITE%45%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI !ETH ID STAT91=-20 9br]: %NAME%{%TAN%(%GRAY%Str: %WHITE%106, %GRAY%Dex: %WHITE%108%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI ETH ID STAT91=-20 9br]: %NAME%{%TAN%(%GRAY%Str: %WHITE%96, %GRAY%Dex: %WHITE%98%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI !ETH ID STAT91=-25 9vo]: %NAME%{%TAN%(%GRAY%Str: %WHITE%158, %GRAY%Dex: %WHITE%42%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI ETH ID STAT91=-25 9vo]: %NAME%{%TAN%(%GRAY%Str: %WHITE%148, %GRAY%Dex: %WHITE%32%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI !ETH ID STAT91=-50 9wc]: %NAME%{%TAN%(%GRAY%Str: %WHITE%94, %GRAY%Dex: %WHITE%70%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI ETH ID STAT91=-50 9wc]: %NAME%{%TAN%(%GRAY%Str: %WHITE%84, %GRAY%Dex: %WHITE%60%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[UNI ID STAT91=-60 8mx]: %NAME%{%TAN%(%GRAY%Str: %WHITE%47, %GRAY%Dex: %WHITE%42%TAN%)%NL%%NAME%}%CONTINUE%
-
+ItemDisplay[WEAPON NORM SET ID]: %NAME%{%GREEN%This Item%WHITE%, %ORANGE%Ral%WHITE%, %ORANGE%Sol%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
+ItemDisplay[WEAPON EXC SET ID]: %NAME%{%GREEN%This Item%WHITE%, %ORANGE%Lum%WHITE%, %ORANGE%Pul%WHITE%, Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}%CONTINUE%
 
 //Items which will benefit socket roll chance from upgrading it first
 //from 1 to 2
@@ -3104,12 +2377,11 @@ ItemDisplay[(lbw OR 8lb) (RARE OR CRAFT OR UNI OR SET) ID SOCK=0 STAT360=0]: %NA
 
 //Info about Max Sockets from all sources of socketing
 //opener
-ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR WEAPON) !THROWING (RARE OR CRAFT OR UNI OR SET) (NORM OR EXC) ID SOCK=0]: %NAME%{%NAME%}%CONTINUE%
-ItemDisplay[((CHEST OR HELM OR SHIELD) OR WEAPON) !THROWING MAG ID SOCK=0]: %NAME%{%NAME%}%CONTINUE%
-ItemDisplay[(dgr OR dir OR wnd OR ywn OR 9wn OR (ci0 ILVL<26)) MAG ID SOCK=0]: %NAME%{%NAME%%NL%%WHITE%Max Sockets: %TAN%[%WHITE%Q:1}%CONTINUE%
-ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR WEAPON) !(THROWING OR dgr OR dir OR wnd OR ywn OR 9wn OR (ci0 ILVL<26)) MAG ID SOCK=0]: %NAME%{%NAME%%NL%%WHITE%Max Sockets: %TAN%[%WHITE%Q:2}%CONTINUE%
-ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR WEAPON) !THROWING RARE ID SOCK=0]: %NAME%{%NAME%%WHITE%Max Sockets: %TAN%[%WHITE%Q:1}%CONTINUE%
-ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR WEAPON) !THROWING (CRAFT OR UNI OR SET) ID SOCK=0]: %NAME%{%NAME%%WHITE%Max Sockets: %TAN%[%WHITE%Q:1}%CONTINUE%
+ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR WEAPON) !THROWING (RARE OR CRAFT OR UNI OR SET) (NORM OR EXC) ID SOCK=0]: %NAME%{%NAME%%NL%}%CONTINUE%
+ItemDisplay[((CHEST OR HELM OR SHIELD) OR WEAPON) !THROWING MAG ID SOCK=0]: %NAME%{%NAME%%NL%}%CONTINUE%
+ItemDisplay[(dgr OR dir OR wnd OR ywn OR 9wn OR (ci0 ILVL<26)) MAG ID SOCK=0]: %NAME%{%NAME%%WHITE%Max Sockets: %TAN%[%WHITE%Q:1}%CONTINUE%
+ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR WEAPON) !(THROWING OR dgr OR dir OR wnd OR ywn OR 9wn OR (ci0 ILVL<26)) MAG ID SOCK=0]: %NAME%{%NAME%%WHITE%Max Sockets: %TAN%[%WHITE%Q:2}%CONTINUE%
+ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR WEAPON) !THROWING (RARE OR CRAFT OR UNI OR SET) ID SOCK=0]: %NAME%{%NAME%%WHITE%Max Sockets: %TAN%[%WHITE%Q:1}%CONTINUE%
 ItemDisplay[(dgr OR dir OR wnd OR ywn OR 9wn OR (ci0 ILVL<26) OR buc OR xuc) (RARE OR CRAFT OR UNI OR SET OR MAG) ID SOCK=0]: %NAME%{%NAME%, %TAN%PB%WHITE%:1}%CONTINUE%
 ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR 1H) !(THROWING OR dgr OR dir OR wnd OR ywn OR 9wn OR (ci0 ILVL<26) OR buc OR xuc) (RARE OR CRAFT OR UNI OR SET OR MAG) ID SOCK=0]: %NAME%{%NAME%, %TAN%PB%WHITE%:2}%CONTINUE%
 ItemDisplay[sst (RARE OR CRAFT OR UNI OR SET OR MAG) ID SOCK=0]: %NAME%{%NAME%, %TAN%PB%WHITE%:2}%CONTINUE%
@@ -3190,6 +2462,10 @@ ItemDisplay[wst (RARE OR CRAFT OR UNI OR SET OR MAG) SOCK=0 STAT360=0 ILVL<26]: 
 ItemDisplay[wst (RARE OR CRAFT OR UNI OR SET OR MAG) SOCK=0 STAT360=0 ILVL>25]: %NAME%{%NAME%, %RED%C%WHITE%:6}%CONTINUE%
 //closer
 ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR WEAPON) !THROWING (RARE OR CRAFT OR UNI OR SET OR MAG) ID SOCK=0]: %NAME%{%NAME%%TAN%]}%CONTINUE%
+
+//Show Weapon Speed & Range
+ItemDisplay[WEAPON !BOW !XBOW !WAND !SOR]: %NAME%{%NAME%%NL%%WHITE%Speed: %WPNSPD% %GRAY%|| %WHITE%Range: +%RANGE%}%CONTINUE%
+ItemDisplay[WEAPON (BOW OR XBOW)]: %NAME%{%NAME%%NL%%WHITE%Speed: %WPNSPD%}%CONTINUE%
 
 //Shop Hunting / Good Items Highlighting
 ItemDisplay[WEAPON (MAG OR RARE OR CRAFT) TABSK34>2 ((NORM OR EXC) OR (SOCK=0 AND !THROWING) OR MAG)]: %NAME%{%NAME%%NL%}%CONTINUE%
