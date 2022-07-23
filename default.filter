@@ -951,9 +951,9 @@ ItemDisplay[(wax OR 9wa OR 7wa OR gix OR 9gi OR 7gi OR btx OR 9bt OR 7bt OR jav 
 ItemDisplay[WEAPON !(hax OR 9ha OR 7ha OR axe OR 9ax OR 7ax OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR ssd OR 9ss OR 7ss OR scm OR 9sm OR 7sm OR sbr OR 9sb OR 7sb OR flc OR 9fc OR 7fc OR wsd OR 9wd OR 7wd OR dgr OR 9dg OR 7dg OR dir OR 9di OR 7di OR bld OR 9bl OR 7bl OR STAFF) RARE ETH !ID]: %NAME%
 
 //War fists bases for crafting and RWs
-ItemDisplay[7xf ETH (SOCK=0 OR SOCK>2)]: %DOT-A8%%TAN%*%WHITE%*   %NAME%%WHITE%   *%TAN%*%YELLOW%
-ItemDisplay[(7xf OR 9xf OR axf) ETH RARE !ID]: %DOT-A8%%TAN%*%WHITE%*   %NAME%%WHITE%   *%TAN%*%YELLOW%
-ItemDisplay[(7xf OR 9xf OR axf) ETH MAG !ID]: %DOT-A8%%TAN%*%WHITE%*   %NAME%%WHITE%   *%TAN%*%YELLOW%
+ItemDisplay[7xf ETH (SOCK=0 OR SOCK>2)]: %DOT-A8%%TAN%*%WHITE%*   %NAME%%WHITE%   *%TAN%*%YELLOW%%CONTINUE%
+ItemDisplay[(7xf OR 7ar OR 7qr) ETH RARE !ID]: %DOT-A8%%TAN%*%WHITE%*   %NAME%%WHITE%   *%TAN%*%YELLOW%%CONTINUE%
+ItemDisplay[(7xf OR 7ar OR 7qr) ETH MAG !ID]: %DOT-A8%%TAN%*%WHITE%*   %NAME%%WHITE%   *%TAN%*%YELLOW%%CONTINUE%
 
 //Rare weapons
 ItemDisplay[WEAPON !(hax OR 9ha OR 7ha OR axe OR 9ax OR 7ax OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR ssd OR 9ss OR 7ss OR scm OR 9sm OR 7sm OR sbr OR 9sb OR 7sb OR flc OR 9fc OR 7fc OR wsd OR 9wd OR 7wd OR dgr OR 9dg OR 7dg OR dir OR 9di OR 7di OR bld OR 9bl OR 7bl OR STAFF OR BOW OR XBOW) RARE !ETH !ID]: %NAME%
