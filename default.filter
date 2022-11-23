@@ -2596,117 +2596,44 @@ ItemDisplay[rid]: %MAP-0A%%PX-62%%NAME% %RED%*
 ItemDisplay[rtp]: %MAP-0A%%PX-62%%NAME% %RED%*
 
 //Project Diablo 2 Maps
-// Info/Immunities Tier 1 Maps
-ItemDisplay[(NMAG OR MAG OR RARE) (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)]: %NAME%{%WHITE%Area Level: 87}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t11]: %NAME%{%GREEN%120 %WHITE%| %GREEN%100 %WHITE%| %ORANGE%100%NL%%RED%145 %WHITE%| %YELLOW%120 %WHITE%| %YELLOW%100 %WHITE%| %BLUE%160%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t12]: %NAME%{%BLUE%140 %WHITE%| %GREEN%1000 %WHITE%| %GREEN%120%NL%%RED%135 %WHITE%| %RED%110 %WHITE%| %YELLOW%100 %WHITE%| %YELLOW%100%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t13]: %NAME%{%RED%120 %WHITE%| %YELLOW%135 %WHITE%| %GREEN%120%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t14]: %NAME% %CONTINUE%{%RED%130 %WHITE%| %GREEN%140 %WHITE%| %BLUE%130%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t15]: %NAME% %CONTINUE%{%GREEN%105 %WHITE%| %ORANGE%150 %WHITE%| %GOLD%105 %WHITE%| %YELLOW%100 %WHITE%| %BLUE%120%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-// Tier 1 Maps
-ItemDisplay[NMAG t11]: %WHITE%Ruins of Viz-Jun{%NAME%}%CONTINUE%
-ItemDisplay[MAG t11]: %BLUE%Ruins of Viz-Jun{%NAME%}%CONTINUE%
-ItemDisplay[RARE t11]: %YELLOW%Ruins of Viz-Jun{%NAME%}%CONTINUE%
-ItemDisplay[NMAG t12]: %WHITE%Horazon's Memory{%NAME%}%CONTINUE%
-ItemDisplay[MAG t12]: %BLUE%Horazon's Memory{%NAME%}%CONTINUE%
-ItemDisplay[RARE t12]: %YELLOW%Horazon's Memory{%NAME%}%CONTINUE%
-ItemDisplay[NMAG t13]: %WHITE%Bastion Keep{%NAME%}%CONTINUE%
-ItemDisplay[MAG t13]: %BLUE%Bastion Keep{%NAME%}%CONTINUE%
-ItemDisplay[RARE t13]: %YELLOW%Bastion Keep{%NAME%}%CONTINUE%
-ItemDisplay[NMAG t14]: %WHITE%Sanatorium{%NAME%}%CONTINUE%
-ItemDisplay[MAG t14]: %BLUE%Sanatorium{%NAME%}%CONTINUE%
-ItemDisplay[RARE t14]: %YELLOW%Sanatorium{%NAME%}%CONTINUE%
-ItemDisplay[NMAG t15]: %WHITE%Royal Crypts{%NAME%}%CONTINUE%
-ItemDisplay[MAG t15]: %BLUE%Royal Crypts{%NAME%}%CONTINUE%
-ItemDisplay[RARE t15]: %YELLOW%Royal Crypts{%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)]: %MAP-80%%GRAY%[%DARK_GREEN%T1%GRAY%] %NAME% Map %DARK_GREEN%*{%NAME%}
+// Maps  (includes notifications)
+ItemDisplay[NMAG (t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t3a OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %WHITE%%NAME% %CONTINUE%		// maps - regular
+ItemDisplay[MAG  (t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t3a OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %BLUE%%MAP%%NAME% %CONTINUE%	// maps - magic (adds blue minimap border)
+ItemDisplay[RARE (t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t3a OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %YELLOW%%MAP%%NAME% %CONTINUE%	// maps - rare (adds yellow minimap border)
+ItemDisplay[(t21 OR t22 OR t23 OR t33 OR t12 OR t13 OR t16 OR t17 OR t18 OR t19)]:	%MAP-80%%GRAY%[%DARK_GREEN%T1%GRAY%] %NAME% Map %DARK_GREEN%*{%NAME%}%CONTINUE%		// maps - T1 (Horazon's Memory, Bastion Keep, Ruined Cistern, Phlegethon, Torajan Jungle, Arreat Battlefield)
+ItemDisplay[(t11 OR t14 OR t15 OR t34 OR t36 OR t26 OR t27 OR t28 OR t29)]:		%MAP-80%%GRAY%[%TAN%T2%GRAY%] %NAME% Map %TAN%*{%NAME%}%CONTINUE%		// maps - T2 (Ruins of Viz-Jun, Sanatorium, Royal Crypts, Ancestral Trial, Fall of Caldeum, Shadows of Westmarch)
+ItemDisplay[(t24 OR t25 OR t31 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a)]:		%MAP-80%%GRAY%[%ORANGE%T3%GRAY%] %NAME% Map %ORANGE%*{%NAME%}%CONTINUE%		// maps - T3 (Tomb of Zultan Kulle, Sewers of Harrogath, River of Blood, Throne of Insanity, Lost Temple, Blood Moon, Pandemonium Citadel, Canyon of Sescheron, Kehjistan Marketplace)
+ItemDisplay[(t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]:		%MAP-80%%GRAY%[%RED%T4%GRAY%] %NAME% Dungeon %RED%*{%NAME%}%CONTINUE%	// dungeons  (Cathedral of Light, Plains of Torment, Sanctuary of Sin)
+ItemDisplay[(t21 OR t22 OR t23 OR t33 OR t12 OR t13 OR t16 OR t17 OR t18 OR t19) !(RARE ID)]:	 %NAME% %CONTINUE%		// maps - T1 highlighting
+ItemDisplay[(t11 OR t14 OR t15 OR t34 OR t36 OR t26 OR t27 OR t28 OR t29) !(RARE ID)]:		  %NAME%  %CONTINUE%		// maps - T2 highlighting
+ItemDisplay[(t24 OR t25 OR t31 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a) !(RARE ID)]:		   %NAME%   %CONTINUE%		// maps - T3 highlighting
+ItemDisplay[(t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) !(RARE ID)]:		    %NAME%    %CONTINUE%	// maps - T4 highlighting
+//ItemDisplay[(t61 OR t62)]:	%NAME%{%NAME%}%WHITE%		// Desert/Moor Duel Arenas (listed here for reference)
 
-// Info/Immunities Tier 2 Maps
-ItemDisplay[(NMAG OR MAG OR RARE) (t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %NAME%{%WHITE%Area Level: 88}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t21]: %NAME%{%RED%140 %WHITE%| %RED%140 %WHITE%| %YELLOW%120 %WHITE%| %GREEN%120%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t22]: %NAME%{%YELLOW%105 %WHITE%| %BLUE%140 %WHITE%| %GREEN%100%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t23]: %NAME%{%GREEN%110%NL%%RED%130 %WHITE%| %YELLOW%100 %WHITE%| %BLUE%120 %WHITE%| %GREEN%125%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t24]: %NAME%{%GOLD%105%NL%%YELLOW%120 %WHITE%| %YELLOW%100 %WHITE%| %BLUE%150 %WHITE%| %GREEN%110%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t25]: %NAME%{%GREEN%100%NL%%RED%125 %WHITE%| %YELLOW%135 %WHITE%| %GREEN%110 %WHITE%| %GREEN%105%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t26]: %NAME%{%GOLD%100 %WHITE%| %RED%110 %WHITE%| %BLUE%150 %WHITE%%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}  %CONTINUE%
-// Tier 2 Maps
-ItemDisplay[NMAG t21]: %WHITE%Phlegethon{%NAME%}%CONTINUE%
-ItemDisplay[MAG t21]: %BLUE%Phlegethon{%NAME%}%CONTINUE%
-ItemDisplay[RARE t21]: %YELLOW%Phlegethon{%NAME%}%CONTINUE%
-ItemDisplay[NMAG t22]: %WHITE%Torajan Jungle{%NAME%}%CONTINUE%
-ItemDisplay[MAG t22]: %BLUE%Torajan Jungle{%NAME%}%CONTINUE%
-ItemDisplay[RARE t22]: %YELLOW%Torajan Jungle{%NAME%}%CONTINUE%
-ItemDisplay[NMAG t23]: %WHITE%Arreat Battlefield{%NAME%}%CONTINUE%
-ItemDisplay[MAG t23]: %BLUE%Arreat Battlefield{%NAME%}%CONTINUE%
-ItemDisplay[RARE t23]: %YELLOW%Arreat Battlefield{%NAME%}%CONTINUE%
-ItemDisplay[NMAG t24]: %WHITE%Tomb of Zultan Kulle{%NAME%}%CONTINUE%
-ItemDisplay[MAG t24]: %BLUE%Tomb of Zultan Kulle{%NAME%}%CONTINUE%
-ItemDisplay[RARE t24]: %YELLOW%Tomb of Zultan Kulle{%NAME%}%CONTINUE%
-ItemDisplay[NMAG t25]: %WHITE%Sewers of Harrogath{%NAME%}%CONTINUE%
-ItemDisplay[MAG t25]: %BLUE%Sewers of Harrogath{%NAME%}%CONTINUE%
-ItemDisplay[RARE t25]: %YELLOW%Sewers of Harrogath{%NAME%}%CONTINUE%
-ItemDisplay[NMAG t26]: %WHITE%Shadows of Westmarch{%NAME%}%CONTINUE%
-ItemDisplay[MAG t26]: %BLUE%Shadows of Westmarch{%NAME%}%CONTINUE%
-ItemDisplay[RARE t26]: %YELLOW%Shadows of Westmarch{%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) (t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %MAP-80%%GRAY%[%TAN%T2%GRAY%] %NAME% Map %TAN%*{%NAME%}
-
-// Info/Immunities Tier 3 Maps
-ItemDisplay[(NMAG OR MAG OR RARE) (t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %NAME%{%WHITE%Area Level: 89}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t31]: %NAME%{%BLUE%140 %WHITE%| %ORANGE%100%NL%%RED%125 %WHITE%| %YELLOW%120 %WHITE%| %YELLOW%100 %WHITE%| %BLUE%180%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t32]: %NAME%{%GREEN%115%NL%%RED%130 %WHITE%| %RED%115 %WHITE%| %YELLOW%120 %WHITE%| %BLUE%125%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t33]: %NAME%{%GREEN%100 %WHITE%| %ORANGE%100%NL%%RED%120 %WHITE%| %YELLOW%115 %WHITE%| %BLUE%110 %WHITE%| %GREEN%120%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t34]: %NAME%{%RED%120 %WHITE%| %YELLOW%110 %WHITE%| %GREEN%120 %WHITE%| %GOLD%100%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t35]: %NAME%{%WHITE%None%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t36]: %NAME%{%YELLOW%100 %WHITE%| %BLUE%140 %WHITE%| %GREEN%110%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t37]: %NAME%{%GOLD%100%NL%%RED%140 %WHITE%| %YELLOW%140 %WHITE%| %BLUE%130 %WHITE%| %GREEN%135%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t38]: %NAME%{%GREEN%110%NL%%RED%110 %WHITE%| %YELLOW%160 %WHITE%| %YELLOW%110 %WHITE%| %BLUE%180%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t39]: %NAME%{%ORANGE%110%NL%%RED%170 %WHITE%| %YELLOW%120 %WHITE%| %GREEN%1000 %WHITE%| %GREEN%110%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-// Tier 3 Maps
-ItemDisplay[NMAG t31]: %WHITE%River of Blood{%NAME%}%CONTINUE%
-ItemDisplay[MAG t31]: %BLUE%River of Blood{%NAME%}%CONTINUE%
-ItemDisplay[RARE t31]: %YELLOW%River of Blood{%NAME%}%CONTINUE%
-ItemDisplay[NMAG t32]: %WHITE%Throne of Insanity{%NAME%}%CONTINUE%
-ItemDisplay[MAG t32]: %BLUE%Throne of Insanity{%NAME%}%CONTINUE%
-ItemDisplay[RARE t32]: %YELLOW%Throne of Insanity{%NAME%}%CONTINUE%
-ItemDisplay[NMAG t33]: %WHITE%The Lost Temple{%NAME%}%CONTINUE%
-ItemDisplay[MAG t33]: %BLUE%The Lost Temple{%NAME%}%CONTINUE%
-ItemDisplay[RARE t33]: %YELLOW%The Lost Temple{%NAME%}%CONTINUE%
-ItemDisplay[NMAG t34]: %WHITE%Ancestral Trial{%NAME%}%CONTINUE%
-ItemDisplay[MAG t34]: %BLUE%Ancestral Trial{%NAME%}%CONTINUE%
-ItemDisplay[RARE t34]: %YELLOW%Ancestral Trial{%NAME%}%CONTINUE%
-ItemDisplay[NMAG t35]: %WHITE%Blood Moon{%NAME%}%CONTINUE%
-ItemDisplay[MAG t35]: %BLUE%Blood Moon{%NAME%}%CONTINUE%
-ItemDisplay[RARE t35]: %YELLOW%Blood Moon{%NAME%}%CONTINUE%
-ItemDisplay[NMAG t36]: %WHITE%Fall of Caldeum{%NAME%}%CONTINUE%
-ItemDisplay[MAG t36]: %BLUE%Fall of Caldeum{%NAME%}%CONTINUE%
-ItemDisplay[RARE t36]: %YELLOW%Fall of Caldeum{%NAME%}%CONTINUE%
-ItemDisplay[NMAG t37]: %WHITE%Pandemonium Citadel{%NAME%}%CONTINUE%
-ItemDisplay[MAG t37]: %BLUE%Pandemonium Citadel{%NAME%}%CONTINUE%
-ItemDisplay[RARE t37]: %YELLOW%Pandemonium Citadel{%NAME%}%CONTINUE%
-ItemDisplay[NMAG t38]: %WHITE%Canyon of Sescheron{%NAME%}%CONTINUE%
-ItemDisplay[MAG t38]: %BLUE%Canyon of Sescheron{%NAME%}%CONTINUE%
-ItemDisplay[RARE t38]: %YELLOW%Canyon of Sescheron{%NAME%}%CONTINUE%
-ItemDisplay[NMAG t39]: %WHITE%Kehjistan Marketplace{%NAME%}%CONTINUE%
-ItemDisplay[MAG t39]: %BLUE%Kehjistan Marketplace{%NAME%}%CONTINUE%
-ItemDisplay[RARE t39]: %YELLOW%Kehjistan Marketplace{%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) (t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %MAP-80%%GRAY%[%ORANGE%T3%GRAY%] %NAME% Map %ORANGE%*{%NAME%}
-
-// Info/Immunities Tier 4 Dungeons
-ItemDisplay[(NMAG OR MAG OR RARE) (t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%WHITE%Area Level: 92}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t41]: %NAME%{%RED%180 %WHITE%| %BLUE%120 %WHITE%| %GOLD%150%NL%%RED%100, %YELLOW%100 %WHITE%| %YELLOW%180, %BLUE%180 %WHITE%| %YELLOW%180, %GREEN%180%NL%%GOLD%180, %YELLOW%180, %GREEN%180 %WHITE%| %GOLD%180, %RED%180 %WHITE%| %ORANGE%180, %GREEN%180%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t42]: %NAME%{%RED%180 %WHITE%| %BLUE%120 %WHITE%| %GOLD%150%NL%%YELLOW%180, %BLUE%180 %WHITE%| %YELLOW%180, %GREEN%180%NL%%GOLD%180, %RED%180 %WHITE%| %ORANGE%180, %GREEN%180 %WHITE%| %RED%180, %BLUE%180%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) t43]: %NAME%{%RED%180, %BLUE%180 %WHITE%%NL%%RED%180, %YELLOW%180 %WHITE%| %YELLOW%180, %BLUE%180, %GREEN%180%NL%%GOLD%150, %GOLD%180, %RED%180 %WHITE%| %ORANGE%180, %GREEN%180, %BLUE%120%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NAME%}%CONTINUE%
-// Tier 4 Dungeons
-ItemDisplay[NMAG t41]: %WHITE%Cathedral of Light{%NAME%}%CONTINUE%
-ItemDisplay[MAG t41]: %BLUE%Cathedral of Light{%NAME%}%CONTINUE%
-ItemDisplay[RARE t41]: %YELLOW%Cathedral of Light{%NAME%}%CONTINUE%
-ItemDisplay[NMAG t42]: %WHITE%Plains of Torment{%NAME%}%CONTINUE%
-ItemDisplay[MAG t42]: %BLUE%Plains of Torment{%NAME%}%CONTINUE%
-ItemDisplay[RARE t42]: %YELLOW%Plains of Torment{%NAME%}%CONTINUE%
-ItemDisplay[NMAG t43]: %WHITE%Sanctuary of Sin{%NAME%}%CONTINUE%
-ItemDisplay[MAG t43]: %BLUE%Sanctuary of Sin{%NAME%}%CONTINUE%
-ItemDisplay[RARE t43]: %YELLOW%Sanctuary of Sin{%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) (t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %MAP-80%%GRAY%[%RED%T4%GRAY%] %NAME% Dungeon %RED%*{%NAME%}
+// Alternative Rules for Maps (immunes)
+ItemDisplay[t11]: %NAME%{%WHITE%Highest Immunes: %YELLOW%120% %GREEN%120%}%CONTINUE%						// Ruins of Viz-Jun		T2
+ItemDisplay[t12]: %NAME%{%WHITE%Highest Immunes: %RED%135% %GREEN%120% %GRAY%(Lightning Spire %GREEN%1000%%GRAY%)}%CONTINUE%	// Horazon's Memory		T1
+ItemDisplay[t13]: %NAME%{%WHITE%Highest Immunes: %YELLOW%135% %GOLD%110%}%CONTINUE%						// Bastion Keep			T1
+ItemDisplay[t14]: %NAME%{%WHITE%Highest Immunes: %RED%130% %BLUE%130%}%CONTINUE%						// Sanatorium			T2
+ItemDisplay[t15]: %NAME%{%WHITE%Highest Immunes: %YELLOW%100% %GREEN%105% %ORANGE%150%}%CONTINUE%				// Royal Crypts			T2
+ItemDisplay[t16]: %NAME%{%WHITE%Highest Immunes: %BLUE%115% %GREEN%140% %ORANGE%125%}%CONTINUE%				// Ruined Cistern		T1
+ItemDisplay[t21]: %NAME%{%WHITE%Highest Immunes: %RED%140% %GREEN%120%}%CONTINUE%						// Phlegethon			T1
+ItemDisplay[t22]: %NAME%{%WHITE%Highest Immunes: %BLUE%140% %YELLOW%105%}%CONTINUE%						// Torajan Jungle		T1
+ItemDisplay[t23]: %NAME%{%WHITE%Highest Immunes: %RED%130% %YELLOW%100%}%CONTINUE%						// Arreat Battlefield		T1
+ItemDisplay[t24]: %NAME%{%WHITE%Highest Immunes: %YELLOW%120% %GREEN%110% %GOLD%105%}%CONTINUE%				// Tomb of Zultan Kulle		T3
+ItemDisplay[t25]: %NAME%{%WHITE%Highest Immunes: %RED%125% %YELLOW%135%}%CONTINUE%						// Sewers of Harrogath		T3
+ItemDisplay[t26]: %NAME%{%WHITE%Highest Immunes: %RED%110% %BLUE%150% %GOLD%100%}%CONTINUE%					// Shadows of Westmarch		T2
+ItemDisplay[t31]: %NAME%{%WHITE%Highest Immunes: %RED%125% %BLUE%180% %ORANGE%100%}%CONTINUE%					// River of Blood		T3
+ItemDisplay[t32]: %NAME%{%WHITE%Highest Immunes: %RED%130% %GREEN%115%}%CONTINUE%						// Throne of Insanity		T3
+ItemDisplay[t33]: %NAME%{%WHITE%Highest Immunes: %RED%120% %YELLOW%115%}%CONTINUE%						// Lost Temple			T1
+ItemDisplay[t34]: %NAME%{%WHITE%Highest Immunes: %RED%120% %GREEN%120% %GOLD%100%}%CONTINUE%					// Ancestral Trial		T2
+//ItemDisplay[t35]: %NAME%%CONTINUE%												// Blood Moon			T3
+ItemDisplay[t36]: %NAME%{%WHITE%Highest Immunes: %YELLOW%100%}%CONTINUE%							// Fall of Caldeum		T2
+ItemDisplay[t37]: %NAME%{%WHITE%Highest Immunes: %RED%140% %BLUE%130% %GOLD%100%}%CONTINUE%					// Pandemonium Citadel		T3
+ItemDisplay[t38]: %NAME%{%WHITE%Highest Immunes: %YELLOW%160% %GREEN%110%}%CONTINUE%						// Canyon of Sescheron		T3
+ItemDisplay[t39]: %NAME%{%WHITE%Highest Immunes: %BLUE%130% %GREEN%110% %GRAY%(Fire Tower %GREEN%1000%%GRAY%)}%CONTINUE%	// Kehjistan Marketplace	T3
+ItemDisplay[t3a]: %NAME%{%WHITE%Highest Immunes: %YELLOW%145% %GREEN%130% %ORANGE%120%}%CONTINUE%				// Ashen Plains			T3
+ItemDisplay[(t41 OR t42 OR t43)]: %NAME%{%WHITE%Highest Immunes: 180% %GRAY%(All Damage Types)}%CONTINUE%			// Dungeons			T4
 
 //Essences
 ItemDisplay[tes]: %PX-9D%%NAME%{%TAN%Essence %WHITE%from: %BLUE%Andariel %WHITE%or %BLUE%Duriel}
