@@ -2580,9 +2580,10 @@ ItemDisplay[lbox]: %BORDER-0A%%DOT-62%%GREEN%pick %PURPLE%*%RED%*%ORANGE%*%YELLO
 ItemDisplay[dcma]: %MAP-0A%%PX-62%%GRAY%*%RED%* %NAME% %RED%*%GRAY%*{%RED%DO IT AT YOUR OWN RISK!%NL%%TAN%Note%WHITE%: %GRAY%You better not go in there...}
 ItemDisplay[dcbl OR dcho]: %MAP-0A%%PX-62%%NAME% %RED%*{%TAN%Note%WHITE%: %RED%Diablo Clone %GRAY%walks nearby...}
 ItemDisplay[dcso]: %MAP-0A%%PX-62%%NAME% %RED%*{%TAN%Note%WHITE%: Contains Souls of %RED%Diablo Clone %WHITE%and %RED%Rathma}
+ItemDisplay[fort]:	%NAME%{%WHITE%Fortified monsters have doubled life and deal 20% extra damage%NL%Halves number of map monsters and doubles loot/experience gained from them}%WHITE%		// Orb of Fortification
 
 //Project Diablo 2 Season 5 items
-ItemDisplay[lpp]: %BORDER-0A%%DOT-62%%GREEN%pick %PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* %GREEN%up{Note%WHITE%: Socket a %BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE%/%ORANGE%Crafted %WHITE%item}
+ItemDisplay[lpp]: %BORDER-0A%%DOT-62%%GREEN%pick  %NAME%  %GREEN%up{Note%WHITE%: Socket a %BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE%/%ORANGE%Crafted %WHITE%item}
 ItemDisplay[rkey]: %BORDER-0A%%DOT-62%%GREEN%pick %PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* %GREEN%up
 ItemDisplay[lsvl]: %BORDER-0A%%DOT-62%%GREEN%pick %PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* %GREEN%up
 ItemDisplay[llmr]: %BORDER-0A%%DOT-62%%GREEN%pick %PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* %GREEN%up
