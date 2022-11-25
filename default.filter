@@ -2135,8 +2135,8 @@ ItemDisplay[NMAG SOCK=3 CHEST !RW]: %NAME%{%TAN%Enigma: %ORANGE%Jah Ith Ber%NL%%
 ItemDisplay[NMAG SOCK=4 CHEST !RW]: %NAME%{%TAN%Chains of Honor: %ORANGE%Dol Um Ber Ist%NL%%TAN%Bramble: %ORANGE%Ral Ohm Sur Eth%NL%%TAN%Fortitude: %ORANGE%El Sol Dol Lo%NL%%TAN%Stone: %ORANGE%Shael Um Pul Lum%NL%%TAN%Note: %WHITE%Possible Runewords}%CONTINUE%
 
 // Runewords For Shields
-ItemDisplay[NMAG SOCK=2 SHIELD !RW]: %NAME%{%TAN%Rhyme: %ORANGE%Shael Eth %WHITE%| %TAN%Splendor: %ORANGE%Eth Lum%NL%%TAN%Note: %WHITE%Possible Runewords}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 SHIELD !RW]: %NAME%{%TAN%Dream: %ORANGE%Io Jah Pul%NL%%TAN%Dragon: %ORANGE%Sur Lo Sol%NL%%TAN%Sanctuary: %ORANGE%Ko Ko Mal%NL%%TAN%Ancient's Pledge: %ORANGE%Ral Ort Tal%NL%%TAN%Note: %WHITE%Possible Runewords}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 (SHIELD OR NEC) !RW]: %NAME%{%TAN%Rhyme: %ORANGE%Shael Eth %WHITE%| %TAN%Splendor: %ORANGE%Eth Lum%NL%%TAN%Note: %WHITE%Possible Runewords}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (SHIELD OR NEC) !RW]: %NAME%{%TAN%Dream: %ORANGE%Io Jah Pul%NL%%TAN%Dragon: %ORANGE%Sur Lo Sol%NL%%TAN%Sanctuary: %ORANGE%Ko Ko Mal%NL%%TAN%Ancient's Pledge: %ORANGE%Ral Ort Tal%NL%%TAN%Note: %WHITE%Possible Runewords}%CONTINUE%
 ItemDisplay[NMAG SOCK=4 SHIELD !RW !DIN]: %NAME%{%TAN%Phoenix: %ORANGE%Vex Vex Lo Jah%NL%%TAN%Exile: %ORANGE%Vex Ohm Ist Dol%NL%%TAN%Spirit: %ORANGE%Tal Thul Ort Amn%NL%%TAN%Note: %WHITE%Possible Runewords}%CONTINUE%
 ItemDisplay[NMAG SOCK=4 SHIELD !RW DIN]: %NAME%{%TAN%Shattered Wall: %ORANGE%Zod Jah Ral Cham%%WHITE%|TAN%Phoenix: %ORANGE%Vex Vex Lo Jah%NL%%TAN%Exile: %ORANGE%Vex Ohm Ist Dol%NL%%TAN%Spirit: %ORANGE%Tal Thul Ort Amn%NL%%TAN%Note: %WHITE%Possible Runewords}%CONTINUE%
 
