@@ -2852,4 +2852,4 @@ ItemDisplay[(am5 OR ama OR amf) NMAG !RW TABSK2>0 CLVL<41]: %NAME%{%NAME%}
 ItemDisplay[(am5 OR ama OR amf) NMAG !RW TABSK2>2 CLVL<80]: %NAME%{%NAME%}
 ItemDisplay[(ARMOR OR WEAPON) !INF CLVL<31]: %NAME%{%NAME%}
 ItemDisplay[(ARMOR OR WEAPON) INF]: {%NAME%}
-ItemDisplay[(ARMOR OR WEAPON) !leg !opm CLVL>30]: {%NAME%}
+//ItemDisplay[(ARMOR OR WEAPON) !leg !opm CLVL>30]: {%NAME%}
