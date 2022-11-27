@@ -2853,3 +2853,9 @@ ItemDisplay[(am5 OR ama OR amf) NMAG !RW TABSK2>2 CLVL<80]: %NAME%{%NAME%}
 ItemDisplay[(ARMOR OR WEAPON) !INF CLVL<31]: %NAME%{%NAME%}
 ItemDisplay[(ARMOR OR WEAPON) INF]: {%NAME%}
 //ItemDisplay[(ARMOR OR WEAPON) !leg !opm CLVL>30]: {%NAME%}
+// Hidden: Regular non-class items with little or no runeword useability - level 15
+ItemDisplay[NMAG CLVL>14 (GLOVES OR BOOTS OR BELT) !EQUIPPED !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: {%NAME%}																		// gloves, boots, belts
+ItemDisplay[NMAG CLVL>14 ((SOCK=1 !(DRU OR BAR OR DIN OR NEC OR SIN OR SOR OR ZON OR STAFF OR WAND OR SCEPTER OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)) OR (dgr OR dir OR buc OR xuc)) !EQUIPPED !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: {%NAME%}	// 1-socket items & items that can only get 1 socket (daggers, shields)
+ItemDisplay[NMAG CLVL>14 THROWING !ZON NORM !EQUIPPED !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: {%NAME%}																			// normal throwable weapons
+ItemDisplay[NMAG CLVL>14 INF SOCK=0 !(DRU OR BAR OR DIN OR NEC OR SIN OR SOR OR ZON OR STAFF OR WAND OR SCEPTER OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR utp) !EQUIPPED !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: {%NAME%}				// inferior items (except Archon Plate)
+//ItemDisplay[NMAG CLVL>14 DAGGER !THROWING (SOCK=2 OR (SOCK=0 (ILVL<26 OR bld OR 9bl OR 7bl))) !EQUIPPED !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: {%NAME%}												// enable this rule to hide 2-socket daggers & daggers that can only get up to 2 sockets (only available Runewords are Strength/Wind)
