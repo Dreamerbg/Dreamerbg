@@ -4,10 +4,6 @@
 //  BG community friendly :)
 //	For Casual and EndGame Players
 
-//Define Filter Strict Levels
-ItemDisplayFilterName[]: Deafault version with all the info in the filter
-ItemDisplayFilterName[]: Hides mana and health potions after clvl 80
-
 //Gold   - by commenting the lines bellow all gold will be shown and auto picked in Season 5
 ItemDisplay[GOLD<50 CLVL<18]:
 ItemDisplay[GOLD<500 (CLVL>17 AND CLVL<80)]:
@@ -539,8 +535,7 @@ ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) ID]: %NAME% %GRAY%(%TAN%$%WHITE%%PRI
 ItemDisplay[rvl]: %PURPLE%R %WHITE%Full
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%{%PURPLE%r %WHITE%35% + Perf %YELLOW%O %WHITE%+ %BLUE%Ring %WHITE%= Light Res %BLUE%Ring%NL%%WHITE%3x%PURPLE%r %WHITE%35% = %PURPLE%R %WHITE%Full%NL%%TAN%Note%WHITE%: Crafting Recipes:}
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR hp5 OR mp1 OR mp2 OR mp3 OR mp4 OR mp5) (CLVL<80 OR DIFF<2)]: %NAME%{%WHITE%3x%RED%!%WHITE%hp + 3x%BLUE%!%WHITE%mp + Square Gem = %PURPLE%R %WHITE%Full%NL%3x%RED%!%WHITE%hp + 3x%BLUE%!%WHITE%mp + Chip. Gem = %PURPLE%r %WHITE%35%%NL%%TAN% Note%WHITE%: Crafting Recipes:}%CONTINUE%
-ItemDisplay[(FILTLVL>1 FILTLVL<9) hp5]:
-ItemDisplay[(FILTLVL>1 FILTLVL<9) mp5]:
+ItemDisplay[(hp5 OR mp5) CLVL>80]:
 ItemDisplay[hp5]: %RED%!%WHITE%Hp{%NAME%}
 ItemDisplay[mp5]: %BLUE%!%WHITE%Mp{%NAME%}
 ItemDisplay[hp1 DIFF=0]: %RED%!%WHITE%minor hp{%NAME%}
@@ -553,6 +548,7 @@ ItemDisplay[mp3 DIFF=0]: %BLUE%!%WHITE%mana{%NAME%}
 ItemDisplay[mp4 DIFF<2]: %BLUE%!%WHITE%great mp{%NAME%}
 ItemDisplay[(hp1 OR hp2 OR hp3 OR mp1 OR mp2 OR mp3) DIFF>0]: {%NAME%}
 ItemDisplay[(hp4 OR mp4) DIFF>1]: {%NAME%}
+ItemDisplay[(hp5 OR mp5) CLVL>80]:
 
 //Utilites
 ItemDisplay[tsc]: %BLUE%* %GRAY%tp %WHITE%scroll{%RED%Warning%WHITE%: You gonna lose socketed Runes/Gems%NL%Socketed Item + %BLUE%* %GRAY%tp %WHITE%scroll + %ORANGE%Hel%NL%%TAN%Note%WHITE%: To remove Runes/Gems from Item:}%CONTINUE%
