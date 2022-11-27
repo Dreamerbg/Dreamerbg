@@ -548,7 +548,6 @@ ItemDisplay[mp3 DIFF=0]: %BLUE%!%WHITE%mana{%NAME%}
 ItemDisplay[mp4 DIFF<2]: %BLUE%!%WHITE%great mp{%NAME%}
 ItemDisplay[(hp1 OR hp2 OR hp3 OR mp1 OR mp2 OR mp3) DIFF>0]: {%NAME%}
 ItemDisplay[(hp4 OR mp4) DIFF>1]: {%NAME%}
-ItemDisplay[!SHOP !EQUIPPED (hp5 OR mp5) CLVL>80]:
 
 //Utilites
 ItemDisplay[tsc]: %BLUE%* %GRAY%tp %WHITE%scroll{%RED%Warning%WHITE%: You gonna lose socketed Runes/Gems%NL%Socketed Item + %BLUE%* %GRAY%tp %WHITE%scroll + %ORANGE%Hel%NL%%TAN%Note%WHITE%: To remove Runes/Gems from Item:}%CONTINUE%
