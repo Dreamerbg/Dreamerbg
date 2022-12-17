@@ -560,8 +560,8 @@ ItemDisplay[key]: %GRAY%key{%ORANGE%crafting %WHITE%bases from vendors%NL%%TAN%P
 //Arrows & Bolts
 ItemDisplay[(aqv OR cqv) NMAG CLVL>6]:
 ItemDisplay[cqv MAG !ID CLVL>79]:
-ItemDisplay[aqv MAG !AMAZON !ID CLVL>79]:
-ItemDisplay[aqv RARE !AMAZON !ID CLVL>79]:
+ItemDisplay[aqv MAG !ID CLVL>79]:
+//ItemDisplay[aqv RARE !AMAZON !ID CLVL>79]:
 
 //Choking, Exploding, Fulminating, Oil, Rancid, Strangling
 ItemDisplay[opm]: %NAME%{%WHITE%Exoplo. Potion + Perf %RED%O %WHITE%+ %BLUE%Ring %WHITE%= Fire Res %BLUE%Ring%NL%%TAN%Note%WHITE%: Crafting Recipe:}%CONTINUE%
